@@ -53,15 +53,34 @@ armadilha.*
 | **Abbott-Smith**, *Manual Greek Lexicon* (1922) | 🔴 reprovado — grego saiu corrompido pelo OCR (`ἐξιλάσκομαι` → `e&iAdoxopa`); precisa reconversão testada antes de qualquer uso |
 | **Robertson**, *Grammar of the Greek NT* (1914) | 🔴 reprovado — mesmo defeito (`ἱλαστήριον` → `iKaariiputv`) |
 
+### Achado adicional (projeto-irmão `Tabernáculo`) — Harrison sobre Levítico já discute a etimologia
+
+**R. K. Harrison, *Levítico* (TNTC), re-OCR concluído** — traduz sistematicamente
+o vocabulário sacrificial (`nepes`, `hatta't`, `kippurim`, `kappōret`) e **discute
+diretamente a etimologia de kipper e a tradução de ἱλαστήριον na LXX** (dado
+relevante às sentinelas R1/R4 deste projeto). Classe "só argumento" — 0
+hebraico/grego por política editorial da série Tyndale, não falha de OCR;
+usar a posição do autor, nunca citar dele a forma exata sem conferir o
+original. Candidato de apoio para a Unidade 01.
+
 ### A literatura do debate central
 
-| Obra | Estado medido lá |
-|---|---|
-| **Morris**, *The Apostolic Preaching of the Cross* (1955) | localizado em acervo (epub) — a peça central que este projeto sustenta |
-| **Dodd**, nota sobre ἱλασμός em *The Johannine Epistles* (Moffatt NTC) | localizado e convertido — expõe a tese de Dodd aplicada diretamente a 1Jo 2.2/4.10. **Mitigação parcial** para a ausência do texto principal |
-| **Dodd**, *The Bible and the Greeks* (1935), capítulo sobre ἱλάσκεσθαι | 🔴 **ausente** em todos os acervos irmãos verificados — permanece prioridade de aquisição (é a fonte primária mais citada do adversário, item 1 do padrão de refutação) |
-| Dodd, *JTS* 32 (1931), artigo original | 🔴 ausente — mesma prioridade |
-| **Nicole**, "C. H. Dodd and the Doctrine of Propitiation" (*WTJ* 17, 1955) | 🔴 ausente — a réplica canônica ao lado de Morris |
+> ✅ **Atualização (achado do projeto-irmão `Tabernáculo`, caderno
+> `TAB-95-TRIADE-HILASMOS`, criado em 11/09/2026 por pedido explícito do
+> dono daquele projeto para sustentar exatamente este mesmo debate):** as
+> **quatro fontes centrais já estão convertidas e testadas** em `.md`,
+> reaproveitáveis por este projeto via as seis portas de `§1`. Isto muda a
+> prioridade de aquisição — de "localizar e comprar" para "reaproveitar e
+> reconferir".
+
+| Obra | Estado medido lá | Arquivo (se reaproveitado) |
+|---|---|---|
+| **Morris**, *The Apostolic Preaching of the Cross* (1955) | ✅ localizado, convertido, `ready` em `TAB-95` | `Morris - The Apostolic Preaching of the Cross (texto).md` |
+| **Dodd**, *The Bible and the Greeks* (1935) — **o próprio ensaio de 1931 sobre ἱλάσκεσθαι na LXX, incluído neste volume** | ✅ **localizado e convertido, com grego real preservado** — deixa de ser a lacuna prioritária que este documento registrava antes. Fonte primária do adversário, item (1) do padrão, **satisfeita** | `Dodd - The Bible and the Greeks (texto).md` |
+| **Dodd**, nota sobre ἱλασμός em *The Johannine Epistles* (Moffatt NTC) | localizado e convertido (achado anterior, via `Dikaiosyne Theou`) — expõe a tese aplicada diretamente a 1Jo 2.2/4.10 | (ver entrada anterior deste documento) |
+| **Nicole**, ***Our Sovereign Saviour*** | ✅ **localizado e convertido** (re-OCR próprio do projeto-irmão) — discute 1Jo 2.2 e a extensão da propiciação. **Nota bibliográfica:** este é um livro diferente do artigo "C. H. Dodd and the Doctrine of Propitiation" (*WTJ* 17, 1955) citado em `ESCOPO_HILAS.md` §8 — **os dois títulos de Nicole não devem ser confundidos**; o artigo de periódico permanece não localizado | `Nicole_Our_Sovereign_Saviour.md` |
+| **J. I. Packer**, *Knowing God* — cap. "The Heart of the Gospel" | ✅ localizado — o capítulo discute Rm 3.24-25 e 1Jo 2.2 diretamente. Título bibliográfico completo confirmado (não é *In My Place Condemned He Stood*, como uma nota anterior deste documento supunha) | `TAB-95`, quarta fonte |
+| Nicole, "C. H. Dodd and the Doctrine of Propitiation" (*WTJ* 17, 1955), o **artigo** | 🔴 ainda não localizado — distinto do livro acima, permanece prioridade menor (o livro já cumpre o item 1 do padrão) |
 
 ### Comentários técnicos que fecham a "espinha verso-a-verso" cultual
 
@@ -90,11 +109,18 @@ armadilha.*
 
 ## Próximo passo
 
-1. Adquirir ou localizar Dodd 1931/1935 e Nicole 1955 — sem eles a Unidade
-   02 não cumpre o item (1) do padrão de refutação para o próprio adversário.
+1. ~~Adquirir ou localizar Dodd 1931/1935 e Nicole 1955~~ — **superado**:
+   Dodd (*The Bible and the Greeks*, com o ensaio de 1931) e Nicole (*Our
+   Sovereign Saviour*) já estão convertidos no caderno `TAB-95` do
+   projeto-irmão `Tabernáculo`. Reaproveitar, não adquirir do zero.
 2. Se este projeto tiver acesso aos acervos irmãos, reaproveitar NA28
-   (não UBS5), BDAG, Thayer, Moulton-Milligan e a nota de Dodd em
-   *The Johannine Epistles* — todos já aprovados nas seis portas lá,
+   (não UBS5), BDAG, Thayer, Moulton-Milligan, a nota de Dodd em
+   *The Johannine Epistles*, e as quatro fontes de `TAB-95` (Dodd, Morris,
+   Nicole, Packer) — todas já aprovadas nas seis portas ou pré-testadas lá,
    pendente apenas de reconferência aqui (Porta 6, tier próprio).
 3. Não copiar tier, sentinela verificada ou trecho citado de nenhum
    projeto irmão sem passar pelas seis portas.
+4. O artigo de periódico de Nicole (*WTJ* 17, 1955) — distinto do livro
+   *Our Sovereign Saviour* — continua sendo a única peça do núcleo
+   bibliográfico genuinamente ausente em todos os acervos irmãos
+   verificados. Prioridade de aquisição rebaixada, mas não fechada.

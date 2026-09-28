@@ -77,3 +77,68 @@ verificados** — permanecem prioridade máxima de aquisição.
 3. `.claude/settings.json` com hook `PreToolUse` — escrito, não testado
    dentro de uma sessão real do Claude Code (só a lógica do script
    subjacente foi testada via linha de comando).
+
+## 4. Camada NotebookLM: cadernos, mídia e ferramenta real (27-28/09/2026)
+
+### Achados de projetos-irmãos incorporados
+
+- **`ESTRATEGIA_NOTEBOOKLM.md`** (ISA-PAU): arquitetura de cadernos,
+  gatilhos, quatro portas, regras invioláveis, cinco vozes — adaptado em
+  `ESTRATEGIA_NOTEBOOKLM_HILAS.md` para 4 cadernos (F1 + U01-U03) + síntese.
+- **`ESTRATEGIA_DE_MIDIA.md`** e **`ESTRATEGIA_DE_USO.md`** (Tabernáculo):
+  o piloto real do caderno `TAB-95-TRIADE-HILASMOS` — que tem **as quatro
+  fontes exatas do debate central deste projeto** (Dodd, Morris, Nicole,
+  Packer) — foi auditado e documentado com resultados concretos: vídeo e
+  relatório reprovaram (violaram a Regra Zero, terminaram neutros/a favor
+  de Dodd); áudio e mapa mental aprovaram; flashcards/quiz tiveram grego
+  em LaTeX (defeito a evitar aqui); slides falharam sempre. Incorporado em
+  `ESTRATEGIA_MIDIA_HILAS.md`, com um módulo único de 3 episódios (um por
+  lexema), em vez dos 5 módulos do projeto maior.
+- **`ESTRATEGIA_POPULACAO_NOTEBOOKLM.md`**: funil genérico (camada local →
+  auditoria de adversários antes de montar → montagem → Deep Research cara
+  → verificação por contagem real, duas vezes) — referenciado em
+  `ESTRATEGIA_NOTEBOOKLM_HILAS.md`.
+- **`CATALOGO_DE_FONTES.md`, `INVENTARIO_AQUISICOES_2026-09-17.md`,
+  `LISTA_DE_AQUISICOES.md`** (Tabernáculo): confirmaram o título exato de
+  Packer (*Knowing God*, cap. "The Heart of the Gospel", não *In My Place
+  Condemned He Stood* como uma nota anterior supunha) e revelaram que
+  Harrison, *Levítico* (TNTC), já discute a etimologia de kipper e a
+  tradução de ἱλαστήριον na LXX — candidato de apoio à Unidade 01.
+- **`AUDITORIA_MECANICA_FASE3.md`, `CHECKLIST_AUDITORIA.md`,
+  `RASTREABILIDADE_CONSULTAS.md`**: o padrão de auditoria mecânica (V1-V6,
+  checklist por unidade/antes-da-síntese/antes-da-entrega, rastreabilidade
+  de cada citação até a fonte real) — adaptado, na escala menor deste
+  projeto, em `_artifacts/CHECKLIST_AUDITORIA_HILAS.md`.
+
+### Ferramenta real do NotebookLM — verificação de sintaxe
+
+Baixado e inspecionado o código-fonte do pacote `notebooklm-py`
+(https://github.com/teng-lin/notebooklm-py, `pip install notebooklm-py`,
+versão 0.8.3) via `pip download` + `unzip`, para confirmar a sintaxe real
+da CLI antes de escrever os scripts de automação — não apenas por
+documentação, mas por leitura do código (`cli/*_cmd.py`).
+
+**Confirmado exatamente como os projetos-irmãos já documentavam:**
+`-p`/`--profile` é opção **global** (antes do subcomando);
+`-n`/`--notebook` é opção **do subcomando**; `notebooklm auth check --test`;
+`notebooklm source add <conteúdo> -n <id> --type file`; `notebooklm
+source add-research <query> --from web --mode deep --import-all
+--cited-only --timeout <n>`; `notebooklm generate audio/video/report/
+quiz/flashcards/mind-map/slide-deck`; `notebooklm artifact list/get/wait/
+poll`; `notebooklm usage --json`. Os comandos de caderno (`create`,
+`list`, `copy`, `delete`, `rename`) são de **topo**, não um subgrupo
+`notebook`.
+
+Corrigido em `montar_caderno.py` um erro que eu mesmo tinha cometido antes
+desta verificação: `source add --file <caminho>` (flag inexistente) →
+`source add <caminho> --type file` (conteúdo é argumento posicional).
+
+**Não executado contra conta real** — este ambiente não tem `notebooklm
+login` feito nem credenciais de longo prazo.
+
+### Scripts escritos nesta rodada
+
+`prevoo_cota.py` (livro-razão via `notebooklm usage --json`),
+`verificar_artefato.py` (download + assinatura binária + checagem de
+status `completed`) — ambos seguindo o mesmo padrão de `montar_caderno.py`:
+sintaxe conferida contra o código-fonte real, execução não testada.

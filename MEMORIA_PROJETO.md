@@ -33,7 +33,9 @@ nota de Dodd em *The Johannine Epistles* (todos pré-aprovados lá).
 ## Próxima ação
 
 1. Decidir se este projeto terá acesso aos acervos dos projetos irmãos
-   para reaproveitamento (ver `FASE_0_CHECKLIST.md` etapa 3), ou se a
+   para reaproveitamento (ver `FASE_0_CHECKLIST.md` etapa 3) — em
+   particular o caderno `TAB-95-TRIADE-HILASMOS` do `Tabernáculo`, que já
+   tem Dodd, Morris, Nicole e Packer convertidos e testados — ou se a
    aquisição será feita do zero.
 2. Adquirir/localizar ao menos uma edição grega do NT e validá-la com
    `buscar_grego.py --teste`.
@@ -41,6 +43,15 @@ nota de Dodd em *The Johannine Epistles* (todos pré-aprovados lá).
    Rm 3.25) e R10 (objeto de Hb 2.17) já têm dado gramatical confirmado
    e são as mais rápidas de fechar.
 4. Abrir a Fase 1 (12 prompts, `fase1-introducao/prompts_HILAS.md`).
+5. NotebookLM: usar o plugin real `notebooklm-py`
+   (github.com/teng-lin/notebooklm-py, `pip install notebooklm-py`) — a
+   sintaxe dos três scripts em `_scripts/` (`montar_caderno.py`,
+   `prevoo_cota.py`, `verificar_artefato.py`) foi conferida contra o
+   código-fonte real (v0.8.3), mas nenhum foi executado contra conta real.
+   Login e escolha de conta são manuais (`ESTRATEGIA_NOTEBOOKLM_HILAS.md` §9).
+6. Mídia: só depois de U01-U03 auditadas — ver `ESTRATEGIA_MIDIA_HILAS.md`,
+   que já incorpora o piloto real e auditado do `TAB-95` (vídeo e relatório
+   reprovaram por violar a Regra Zero; áudio e mapa mental aprovaram).
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
 

@@ -249,11 +249,20 @@ conferência em fonte primária (léxico + texto grego).**
 
 ## 8. Pauta de aquisição
 
+> ✅ **Atualizado após achado do projeto-irmão `Tabernáculo` (caderno
+> `TAB-95-TRIADE-HILASMOS`).** As três primeiras linhas abaixo já estão
+> **localizadas, convertidas e testadas** em acervo irmão — deixam de ser
+> "adquirir" e passam a ser "reaproveitar pelas seis portas" (ver
+> `CURADORIA_FONTES_HILAS.md` §1-2). Mantidas na tabela como registro do
+> que o corpus mínimo exige, não como pauta de compra ainda aberta.
+
 | Prioridade | Obra | Por quê |
 |---|---|---|
-| 🔴 1 | Leon Morris, *The Apostolic Preaching of the Cross* (1955, 3ª ed. 1965) | a resposta clássica — item (1) do padrão para o lado que o projeto sustenta |
-| 🔴 2 | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), pp. 117-157 | artigo, não livro — verificar acesso via JSTOR/repositório teológico |
-| 🔴 3 | C. H. Dodd, *The Bible and the Greeks* (1935), cap. sobre ἱλάσκεσθαι — **e** o artigo original, *JTS* 32 (1931), pp. 352-360 | fonte primária do adversário — item (1) do padrão, obrigatório |
+| ✅ (reaproveitável) | Leon Morris, *The Apostolic Preaching of the Cross* (1955, 3ª ed. 1965) | a resposta clássica — item (1) do padrão para o lado que o projeto sustenta. Localizado em `TAB-95` |
+| ✅ (reaproveitável) | Roger Nicole, ***Our Sovereign Saviour*** | discute 1Jo 2.2 e a extensão da propiciação. Localizado em `TAB-95` — **não confundir** com o artigo abaixo |
+| ✅ (reaproveitável) | C. H. Dodd, *The Bible and the Greeks* (1935) — **inclui o ensaio original de 1931** sobre ἱλάσκεσθαι, com grego preservado | fonte primária do adversário — item (1) do padrão, obrigatório. Localizado em `TAB-95` |
+| 🔴 novo | Packer (e Dever), sobre substituição penal e propiciação | quarta voz conservadora do mesmo caderno `TAB-95` — reaproveitar junto com as três acima |
+| 🔴 3 (rebaixado) | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), pp. 117-157 | **artigo** de periódico, distinto de *Our Sovereign Saviour* — permanece não localizado em nenhum acervo irmão verificado |
 | 🔴 4 | BDAG (Bauer-Danker-Arndt-Gingrich), verbetes ἱλαστήριον/ἱλασμός/ἱλάσκομαι/ἵλεως | léxico primário de referência |
 | 🔴 5 | TDNT (Kittel), verbete ἵλεως κτλ. (vol. 3, Büchsel) | o artigo de léxico teológico mais citado nos dois lados do debate |
 | 🟡 6 | John Stott, *The Cross of Christ* (1986), cap. sobre "propitiation" | síntese pastoral-acadêmica contemporânea |
