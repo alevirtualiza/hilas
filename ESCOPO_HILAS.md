@@ -249,27 +249,34 @@ conferência em fonte primária (léxico + texto grego).**
 
 ## 8. Pauta de aquisição
 
-> ✅ **Atualizado após achado do projeto-irmão `Tabernáculo` (caderno
-> `TAB-95-TRIADE-HILASMOS`).** As três primeiras linhas abaixo já estão
-> **localizadas, convertidas e testadas** em acervo irmão — deixam de ser
-> "adquirir" e passam a ser "reaproveitar pelas seis portas" (ver
-> `CURADORIA_FONTES_HILAS.md` §1-2). Mantidas na tabela como registro do
-> que o corpus mínimo exige, não como pauta de compra ainda aberta.
+> ✅ **Atualizado em 28/09/2026 — estado real após 11 arquivos recebidos e
+> aprovados em `biblioteca/`** (ver `CURADORIA_FONTES_HILAS.md`). As
+> linhas ✅ já estão **dentro do projeto**, não mais "reaproveitáveis":
+> NA28, Morris, Nicole (*Our Sovereign Saviour*), Packer, Harrison
+> (Levítico, PT), BDB (3 vols.), Milgrom (2 partes), UBS5.
 
-| Prioridade | Obra | Por quê |
-|---|---|---|
-| ✅ (reaproveitável) | Leon Morris, *The Apostolic Preaching of the Cross* (1955, 3ª ed. 1965) | a resposta clássica — item (1) do padrão para o lado que o projeto sustenta. Localizado em `TAB-95` |
-| ✅ (reaproveitável) | Roger Nicole, ***Our Sovereign Saviour*** | discute 1Jo 2.2 e a extensão da propiciação. Localizado em `TAB-95` — **não confundir** com o artigo abaixo |
-| ✅ (reaproveitável) | C. H. Dodd, *The Bible and the Greeks* (1935) — **inclui o ensaio original de 1931** sobre ἱλάσκεσθαι, com grego preservado | fonte primária do adversário — item (1) do padrão, obrigatório. Localizado em `TAB-95` |
-| 🔴 novo | Packer (e Dever), sobre substituição penal e propiciação | quarta voz conservadora do mesmo caderno `TAB-95` — reaproveitar junto com as três acima |
-| 🔴 3 (rebaixado) | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), pp. 117-157 | **artigo** de periódico, distinto de *Our Sovereign Saviour* — permanece não localizado em nenhum acervo irmão verificado |
-| 🔴 4 | BDAG (Bauer-Danker-Arndt-Gingrich), verbetes ἱλαστήριον/ἱλασμός/ἱλάσκομαι/ἵλεως | léxico primário de referência |
-| 🔴 5 | TDNT (Kittel), verbete ἵλεως κτλ. (vol. 3, Büchsel) | o artigo de léxico teológico mais citado nos dois lados do debate |
-| 🟡 6 | John Stott, *The Cross of Christ* (1986), cap. sobre "propitiation" | síntese pastoral-acadêmica contemporânea |
-| 🟡 7 | D.A. Carson, tratamento de Rm 3.25 em comentários/artigos sobre a justiça de Deus | conecta com o projeto-irmão "Justiça de Deus" |
-| 🟡 8 | Stephen Travis, *Christ and the Judgment of God* (rev. 2008) | posição intermediária a mapear com cuidado |
-| 🟢 9 | Louw-Nida, *Greek-English Lexicon of the NT Based on Semantic Domains* | classificação por domínio semântico, útil para o Círculo 1 |
-| 🟢 10 | Albrecht Ritschl, sobre reconciliação (séc. XIX) | precursor **a verificar** — não presumir que antecipa Dodd sem checar |
+| Prioridade | Obra | Por quê | Estado |
+|---|---|---|---|
+| ✅ **no projeto** | NA28, *Novum Testamentum Graece* | texto grego base | `biblioteca/NA28_Novum-Testamentum-Graece.md` |
+| ✅ **no projeto** | Leon Morris, *The Apostolic Preaching of the Cross* | a resposta clássica; cita Dodd e Nicole diretamente | `biblioteca/Morris_...md` |
+| ✅ **no projeto** | Roger Nicole, ***Our Sovereign Saviour*** | 1Jo 2.2, extensão da propiciação | `biblioteca/Nicole_...md` |
+| ✅ **no projeto** | J. I. Packer, *Knowing God* | Rm 3.24-25, 1Jo 2.2, cap. 18 | `biblioteca/Packer_...md` |
+| ✅ **no projeto** | R. K. Harrison, *Levítico* (edição PT, Série Cultura Bíblica) | etimologia de kipper/ἱλαστήριον | `biblioteca/Harrison_...md` |
+| ✅ **no projeto** | BDB, *Hebrew and English Lexicon* (1906), 3 vols. | verbete de כַּפֹּרֶת cita a LXX = ἱλαστήριον | `biblioteca/BDB_...md` |
+| ✅ **no projeto** | Jacob Milgrom, *Leviticus 1-16* (AYB), 2 partes | comentário técnico máximo de Lv 16 | `biblioteca/Milgrom_...md` |
+| ✅ **no projeto** | UBS5, *The Greek New Testament* | texto grego alternativo (aprovado após correção de bug de glifo) | `biblioteca/UBS5_...md` |
+| 🟡 pendente, localizado | BDAG (Bauer-Danker-Arndt-Gingrich) | léxico primário de referência | **confirmado em `Justiça-de-Deus\_processados_md\BDAG_Greek_English_Lexicon_NT_OCRv2.md`** — pedir a seguir |
+| 🔴 **ausente nas duas pastas irmãs verificadas** | C. H. Dodd, *The Bible and the Greeks* (1935, com o ensaio de 1931) | fonte primária do adversário — item (1) do padrão. Mitigado: Morris cita seu método e argumento extensamente (ver sentinela 5) | não localizado — nem em `Tabernáculo\biblioteca` nem em `Justiça-de-Deus\_processados_md` |
+| 🔴 3 (rebaixado) | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), artigo | distinto do livro *Our Sovereign Saviour*, já no projeto. Mitigado: Morris cita e resume com precisão (sentinela 5) | não localizado |
+| 🔴 **ausente nas duas pastas irmãs verificadas** | Thayer, *Greek-English Lexicon of the NT* | léxico primário | não localizado |
+| 🔴 **ausente nas duas pastas irmãs verificadas** | Moulton-Milligan, *Vocabulary of the Greek Testament* | uso extrabíblico (papiros) | não localizado |
+| 🟡 5 | TDNT (Kittel), verbete ἵλεως κτλ. (vol. 3, Büchsel) | citado dentro de Morris (Büchsel é discutido diretamente) — texto completo do TDNT ainda não localizado | não localizado |
+| 🟡 6 | John Stott, *The Cross of Christ* (1986), cap. sobre "propitiation" | síntese pastoral-acadêmica contemporânea | não localizado |
+| 🟡 7 | D.A. Carson, tratamento de Rm 3.25 | conecta com o projeto-irmão "Justiça de Deus" | não localizado |
+| 🟡 8 | Stephen Travis, *Christ and the Judgment of God* (rev. 2008) | posição intermediária a mapear com cuidado | não localizado |
+| 🟢 9 | Louw-Nida, *Greek-English Lexicon of the NT Based on Semantic Domains* | classificação por domínio semântico | não localizado |
+| 🟢 10 | Albrecht Ritschl, sobre reconciliação (séc. XIX) | precursor a verificar (sentinela R6, ainda aberta) | não localizado |
+| 🟢 11 | Wenham, *The Book of Leviticus* (NICOT) | apoio adicional a U01 — confirmado em `Tabernáculo\biblioteca` | disponível para pedir, ainda não enviado |
 
 > **Sem ISBN, de propósito** — autor+título+ano+editora identificam sem
 > ambiguidade e evitam levar a edição errada (mesma razão do molde de

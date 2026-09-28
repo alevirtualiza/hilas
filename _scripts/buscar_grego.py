@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
-"""Busca grega tolerante a acento/espírito/caixa e a normalização Unicode mista.
+"""Busca grega tolerante a acento/espírito/caixa, normalização Unicode
+mista, E variantes de glifo grego (theta/phi/pi/kappa/rho "symbol" vs.
+forma padrão).
 
 Nasceu de um bug medido no projeto-irmao "Dikaiosyne Theou" (01/09/2026,
 sentinela S20): um .md convertido de NA28 grego nao estava nem em NFC nem em
 NFD -- normalizacao mista. `grep "ilastērion"` (com acento) devolvia 0
 ocorrencias num arquivo que tinha a palavra visivel na tela seis vezes. Foi
 falso negativo do buscador, nao do acervo.
+
+Segundo bug, medido nesta sessao (28/09/2026) contra uma conversao propria
+de UBS5: o teste reprovava por faltar "ιλασθ" (Lc 18.13), mas a palavra
+ESTAVA la -- `ἱλάσϑητί`, grafada com **ϑ** (U+03D1, GREEK THETA SYMBOL),
+nao **θ** (U+03B8, GREEK SMALL LETTER THETA). NFD nao resolve isso: as duas
+sao letras DIFERENTES no Unicode, nao uma letra + diacritico. E' uma
+variante tipografica antiga (comum em edicoes criticas alemas/UBS), nao um
+erro de OCR. Corrigido normalizando as 5 letras gregas que tem variante
+"symbol" para a forma padrao antes de comparar.
 
 Uso:
     buscar_grego.py "ἱλαστήριον" biblioteca/NA28.md
@@ -17,6 +28,18 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+
+# Letras gregas com uma variante "symbol" de mesmo valor fonetico/lexical,
+# usada de forma intercambiavel em edicoes criticas mais antigas (UBS, alguns
+# fontes academicas alemas). Mapear para a forma padrao antes de comparar.
+VARIANTES_GREGAS = {
+    "ϑ": "θ",  # ϑ theta symbol      -> θ
+    "ϕ": "φ",  # ϕ phi symbol        -> φ
+    "ϖ": "π",  # ϖ pi symbol         -> π
+    "ϰ": "κ",  # ϰ kappa symbol      -> κ
+    "ϱ": "ρ",  # ϱ rho symbol        -> ρ
+    "ς": "σ",  # ς sigma final       -> σ (por simetria/robustez)
+}
 
 # As seis ocorrências da tríade no NT -- teste de aceitação para qualquer
 # edição grega que este projeto adquira ou reaproveite. Formas exatas, não
@@ -42,7 +65,10 @@ def dobra(texto: str) -> str:
     """
     nfd = unicodedata.normalize("NFD", texto)
     sem_diacritico = "".join(c for c in nfd if unicodedata.category(c) != "Mn")
-    return sem_diacritico.lower()
+    minusculo = sem_diacritico.lower()
+    for variante, padrao in VARIANTES_GREGAS.items():
+        minusculo = minusculo.replace(variante, padrao)
+    return minusculo
 
 
 def buscar(termo: str, caminho: Path, contexto: int = 60):

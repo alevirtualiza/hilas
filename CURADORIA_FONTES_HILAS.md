@@ -67,6 +67,39 @@ terceiro polo na disputa da sentinela 4 (rascunho, ver `sentinelas_HILAS.md`).
 
 ---
 
+## ✅ Quarto lote recebido e aprovado (28/09/2026) — Milgrom e UBS5
+
+| Arquivo | Tier | Papel |
+|---|---|---|
+| `biblioteca/Milgrom_Leviticus1-16_P1de2.md` | S | comentário técnico máximo sobre Lv 1-16 (Anchor Yale Bible) — discussão extensa da etimologia e uso de *kipper* |
+| `biblioteca/Milgrom_Leviticus1-16_P2de2.md` | S | continuação |
+| `biblioteca/UBS5_The-Greek-New-Testament.md` | S | texto grego alternativo ao NA28 |
+
+**Achado técnico importante — o veto ao UBS5 dos projetos-irmãos NÃO se
+aplica a esta conversão.** Os projetos-irmãos vetaram *suas* cópias de
+UBS5 (reprovadas 0/4 no teste lexical). **Esta cópia, de conversão
+própria, foi testada de forma independente e reprovou por um motivo
+diferente e específico**: esta edição grafa theta como **ϑ** (U+03D1,
+GREEK THETA SYMBOL) em vez de **θ** padrão (U+03B8) — `ἱλάσϑητί` em Lc
+18.13, não `ἱλάσθητί`. É variante tipográfica genuína da edição impressa
+(comum em edições críticas alemãs/UBS antigas), não erro de OCR. **O
+`buscar_grego.py` foi corrigido nesta sessão** (mapeamento das 5 letras
+gregas com variante "symbol": θ/φ/π/κ/ρ) e agora aprova esta cópia
+4/4 — ver sentinela 7 em `sentinelas_HILAS.md`.
+
+**Regra prática:** o veto documentado a "UBS5" nos projetos-irmãos vale
+para as cópias *deles*, não para toda e qualquer conversão de UBS5 —
+cada conversão precisa do próprio teste, nunca herdar veto por nome de
+edição.
+
+**Milgrom — ressalva de leitura (Regra 11-B):** o texto tem ocasionalmente
+palavras fundidas com fragmentos de nota de rodapé (ex. "kipper
+o'pffuerrgien'g" no lugar de "kipper 'purge'... [nota]"), típico de PDF
+denso em duas colunas. O argumento continua recuperável com atenção; não
+copiar trecho colado sem reler o contexto.
+
+---
+
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)
 
 Se este projeto reaproveitar um `.md` já convertido de outro projeto (em vez

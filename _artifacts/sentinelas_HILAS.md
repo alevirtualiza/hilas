@@ -34,7 +34,9 @@ sessão — ver `_LOG_EXECUCAO.md`). Não é mais "achado do projeto-irmão" —
 
 | 6 | **"Propiciação" e "expiação" não são duas traduções neutras da mesma palavra** — são as duas conclusões *opostas* que o próprio método de Dodd (sentinela 5) tenta decidir. Escolher uma das duas em português, ao traduzir ἱλαστήριον/ἱλασμός, já é tomar partido no debate, não uma escolha de estilo | tratar a escolha de palavra em português como estilística ou neutra | **[INFERÊNCIA FORTE]**, decorrente diretamente da sentinela 5: o próprio Dodd organiza sua evidência para concluir que o grupo ἱλασκ- na LXX significa "remover/purgar" (expiação), não "aplacar" (propiciação) — as duas palavras portuguesas **traduzem as duas teses rivais**, não a mesma coisa. Confirmado por leitura direta do método de Dodd em `biblioteca/Morris_Apostolic_Preaching_of_the_Cross.md` |
 
-*(6 sentinelas verificadas — critério de saída atingido.
+| 7 | **Variante tipográfica de theta (e outras letras) pode dar falso negativo, mesmo depois de resolvido o problema de acento/NFC-NFD** | assumir que uma busca "sem acento" (R11) já é suficiente para grego robusto | **Medido nesta sessão (28/09/2026):** uma conversão própria de UBS5 grafa theta como **ϑ** (U+03D1, GREEK THETA SYMBOL) em vez de **θ** (U+03B8) padrão — `ἱλάσϑητί` (Lc 18.13) em vez de `ἱλάσθητί`. São **duas letras Unicode diferentes**, não uma letra + diacrítico — por isso NFD não resolve. `buscar_grego.py --teste` reprovava (3/4) até a correção; depois de mapear as 5 variantes "symbol" (θ/φ/π/κ/ρ) para a forma padrão, aprovou 4/4. **Regra decorrente: toda edição crítica alemã/UBS antiga merece checagem de variante de glifo antes de declarar ausência** |
+
+*(7 sentinelas verificadas — acima do critério de saída de 6.
 `_scripts/verificar_sentinelas.py` deve retornar exit 0 [PRONTO].)*
 
 ---

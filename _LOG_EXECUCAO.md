@@ -259,3 +259,55 @@ não 2). Não migrada para tabela oficial (a disputa etimológica continua
 aberta, isso apenas a documenta melhor).
 
 **Estado da biblioteca: 8 arquivos.** Sentinelas seguem 6/6 [PRONTO].
+
+## 8. Milgrom, UBS5 e correção de bug de glifo grego (28/09/2026)
+
+Usuário anexou Milgrom (*Leviticus 1-16*, AYB, 2 partes) e uma conversão
+própria de UBS5.
+
+**Bug real encontrado e corrigido:** `buscar_grego.py --teste` reprovava
+esta cópia de UBS5 (3/4 — faltava `ιλασθ`, Lc 18.13). Investigação por
+leitura direta (busca por `Φαρισαῖος`/`τελώνης` até achar o versículo)
+revelou a palavra presente, mas grafada `ἱλάσϑητί` com **ϑ** (U+03D1,
+GREEK THETA SYMBOL) em vez de **θ** (U+03B8) padrão — variante tipográfica
+real da edição, não erro de OCR. NFD (que resolve acento/espírito) não
+resolve isso, porque são **letras Unicode diferentes**, não uma letra +
+diacrítico.
+
+**Correção:** `buscar_grego.py` agora mapeia as 5 letras gregas com
+variante "symbol" (θ, φ, π, κ, ρ) para a forma padrão antes de comparar,
+além do sigma final (ς→σ). Testado contra: (a) a cópia de UBS5 real —
+passou a 4/4; (b) o NA28 já aprovado — sem regressão; (c) os dois arquivos
+sintéticos de teste anteriores — sem regressão.
+
+**Sentinela nº7 registrada** em `sentinelas_HILAS.md` — variante de glifo
+como segunda classe de falso negativo, distinta da normalização NFC/NFD
+(sentinela nº4/R11).
+
+**Achado de curadoria:** o veto ao "UBS5" documentado nos projetos-irmãos
+era específico às cópias deles (reprovadas por perda de conteúdo, 0/4).
+Esta cópia, de conversão independente, reprova por um motivo totalmente
+diferente (glifo) e, corrigido o buscador, aprova. **Lição: vetos a uma
+edição por nome não se herdam entre conversões diferentes — cada arquivo
+precisa do próprio teste.**
+
+**Milgrom:** aprovado, Tier S, classe "só argumento" (convenção Anchor
+Bible de transliteração). Ressalva de leitura: ocasional intercalação de
+corpo com nota de rodapé (Regra 11-B), argumento recuperável com atenção.
+
+**Estado da biblioteca: 11 arquivos.** Sentinelas: 7/6 — acima do
+critério de saída, `verificar_sentinelas.py` [PRONTO].
+
+## 9. Listagem real de `Justiça-de-Deus\_processados_md` (28/09/2026)
+
+Usuário colou a listagem de 118 arquivos dessa pasta. Cruzamento contra
+o que este projeto precisa:
+
+- ✅ **`BDAG_Greek_English_Lexicon_NT_OCRv2.md` está lá** — pedir a
+  seguir, é a peça que faltava do núcleo de léxicos.
+- 🔴 **Não aparecem:** Dodd (nenhum arquivo com esse nome), Thayer,
+  Moulton-Milligan. Não estão nesta pasta — permanecem como lacuna real
+  (ver `ESCOPO_HILAS.md` §9, atualizado).
+- Demais 116 arquivos são do escopo de "Justiça de Deus" (NPP, Käsemann,
+  Sanders, Wright, patrística/Reforma sobre δικαιοσύνη θεοῦ) — fora do
+  recorte lexical deste projeto, não solicitados.
