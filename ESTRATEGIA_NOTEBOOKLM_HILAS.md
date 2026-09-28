@@ -40,6 +40,18 @@ trata UTF-8 de forma uniforme em todo ambiente) e **prefixo `HILAS`
 obrigatório** — numa conta com cadernos de outros projetos, é o único
 filtro visual que existe.
 
+### Cadernos de círculo (C0-C5) — ver `ESTRATEGIA_CIRCULOS_HILAS.md`
+
+Além dos cinco acima, o projeto tem **seis cadernos de aprofundamento**,
+um por círculo concêntrico do `ESCOPO_HILAS.md` §4 — `HILAS C0 - Nucleo
+Lexical` até `HILAS C5 - Historia da Interpretacao`. Diferente dos
+U01-U04 (exegese fechada dos 6 versículos-âncora), os cadernos de círculo
+**aprofundam o entorno** via Deep Research própria e **geram mídia
+diretamente** (6 áudios, 4 vídeos, mapa mental, relatório, infográfico,
+flashcards, por caderno) — ver `ESTRATEGIA_CIRCULOS_HILAS.md` para a
+pauta de Deep Research de cada um e o pacote completo de mídia.
+**Total de cadernos do projeto: 11.**
+
 ### O caderno de síntese não recebe os PDFs
 
 Recebe **os relatórios já auditados** das U01-U03. Mesma razão medida nos

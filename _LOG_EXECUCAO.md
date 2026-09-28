@@ -405,3 +405,50 @@ ainda não localizado na íntegra).
 
 **Sentinela 8 atualizada com a quinta fonte.** Estado: 17 arquivos na
 biblioteca, 9/6 sentinelas [PRONTO].
+
+## 13. Seis cadernos de círculo + upgrade da persona de pesquisa (28/09/2026)
+
+A pedido do usuário: um caderno NotebookLM por círculo concêntrico
+(`ESCOPO_HILAS.md` §4, C0-C5), cada um com Deep Research própria para
+fechar lacunas e pacote de mídia (6 áudios — 3 debates alternando
+personas + 3 solo —, 4 vídeos, 1 mapa mental, 1 relatório aprofundado, 1
+infográfico, 1 flashcards = 14 artefatos por caderno, 84 no total).
+
+**Documentos criados:**
+- `ESTRATEGIA_CIRCULOS_HILAS.md` — os 6 cadernos, pauta de Deep Research
+  específica por caderno (mirando as sentinelas ainda abertas: R4
+  etimologia de כפר, R6 Ritschl, R8 RSV 1946, R9 4 Macabeus 17.22), e o
+  pacote de mídia completo com preenchimento dos parâmetros de debate por
+  caderno.
+- `_artifacts/PERSONAS_MIDIA_HILAS.md` — os cinco templates de persona de
+  mídia (A1 Erudito, A2 Pastor, A3 Apologética-N3, A4 Apologética-N1, A5
+  Aluno), adaptados de templates de outro projeto (Rm 1.16-17) para a
+  Regra Zero deste projeto (ira pessoal de Deus, propiciação objetiva),
+  parametrizados por `{TEMA}`/`{TEXTOS}`/`{ADVERSARIO_N3}`/`{DEBATE_N1}`.
+
+**Documento atualizado:** `_artifacts/persona_notebooklm.txt` —
+substituído por uma persona de pesquisa muito mais completa (fornecida
+pelo usuário, genérica para pesquisa bíblica erudita), com as adições
+específicas deste projeto preservadas: classificação obrigatória
+`[FONTE PRIMÁRIA NO CORPUS]`/`[CITADO POR TERCEIROS]`/`[NÃO ENCONTRADO]`,
+referência às sentinelas abertas, e a Regra Zero como limite explícito
+(equiparar Dodd à leitura reformada nunca é "reconhecer divergência
+legítima").
+
+**Tensão identificada e resolvida:** o método já documentado
+(`ESTRATEGIA_MIDIA_HILAS.md`, baseado no piloto real do `TAB-95`) diz que
+mídia só deve sair de cadernos alimentados com conteúdo **auditado**,
+nunca de cadernos de fonte bruta — porque geração sem curadoria viola a
+Regra Zero (vídeo saiu neutro, relatório só citou Dodd). Os cadernos de
+círculo, por pedido explícito, geram mídia diretamente. Resolvido
+adaptando o Gatilho 2 (`ESTRATEGIA_NOTEBOOKLM_HILAS.md`): nenhuma mídia
+antes de (a) a Deep Research rodar e as fontes ficarem `ready`, (b) o
+`GUIA_EDITORIAL_HILAS.md` estar dentro do caderno como fonte, (c) uma
+consulta de verificação ter auditado o que a Deep Research trouxe.
+
+**Cota:** 84 chamadas de `generate` só para os círculos, muito acima do
+teto de ~40/dia medido nos projetos-irmãos — um caderno de círculo por
+dia, ordem sugerida priorizando fechar sentinelas (C0→C1→C4→C5→C2→C3).
+
+**Nada executado** — mesma ressalva de sempre, este ambiente não tem CLI
+autenticada.

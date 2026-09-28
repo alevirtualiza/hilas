@@ -24,6 +24,11 @@ núcleo bibliográfico do debate central está completo, incluindo Dodd na
 - `CURADORIA_FONTES_HILAS.md` — protocolo de seis portas + registro de
   todas as aprovações reais.
 - `ESTRATEGIA_NOTEBOOKLM_HILAS.md`, `ESTRATEGIA_MIDIA_HILAS.md`.
+- `ESTRATEGIA_CIRCULOS_HILAS.md` — 6 cadernos novos (C0-C5, um por
+  círculo concêntrico), cada um com Deep Research própria e pacote de
+  mídia (14 artefatos/caderno). Total de cadernos do projeto: 11.
+- `_artifacts/PERSONAS_MIDIA_HILAS.md` — 5 templates de persona de mídia.
+- `_artifacts/persona_notebooklm.txt` — persona de pesquisa upgradeada.
 - `.claude/settings.json` — hook `PreToolUse` ligado a `hook_sentinelas.py`.
 
 ## Biblioteca — 17 arquivos aprovados
