@@ -4,8 +4,9 @@
 exegética (ver `ANATOMIA_DO_MOLDE.md`), adaptado ao recorte lexical dos
 três `hilas` (ἱλαστήριον / ἱλασμός / ἱλάσκομαι). **Fase 0 concluída. O
 núcleo bibliográfico do debate central está completo, incluindo Dodd na
-íntegra. Fase 2 concluída — as quatro unidades (U01-U04) estão
-redigidas e auditadas.**
+íntegra. Fases 1 e 2 concluídas** — os 12 prompts introdutórios
+(`fase1-introducao/saidas/01-12.md` + `RELATORIO_FASE1.md`) e as quatro
+unidades (U01-U04) estão redigidos e auditados.
 
 ## O que já está pronto
 
@@ -106,26 +107,45 @@ início da redação — são aprofundamento, não corpus mínimo.
   unidade (só adjacência textual notada em Rm 3.24-25) — fora do escopo
   desta síntese, que não pode consultar a biblioteca diretamente.
 
+## Fase 1 — 12 prompts introdutórios
+
+- ✅ **Todos os 12 prompts respondidos** —
+  `fase1-introducao/saidas/01.md` a `12.md` + `RELATORIO_FASE1.md`.
+  Achados principais: BDB confirma etimologia de כפר disputada desde
+  1906 (Prompt 1); `ἐξιλάσκομαι` em BDAG fecha parcialmente uma lacuna
+  da U03 (1 Clemente/Hermas, Prompt 5); Rm 1.18/1.24/1.26 confirmados
+  diretamente no NA28 (Prompt 10); `dossie.py --listar` subconta grego
+  por não normalizar Unicode — achado sobre o próprio ferramental,
+  registrado sem esconder (Prompt 6); Calvino, Travis e Cremer (na
+  ligação específica com ἱλασκ-) confirmados como lacunas reais por
+  dupla checagem formal (Prompts 11-12); Carson (HillJames) responde à
+  "nova perspectiva sobre Paulo", não a Dodd diretamente — achado novo
+  para o Círculo C5.
+
 ## Próxima ação
 
-1. **Fase 2 encerrada.** Considerar a Fase 3 (síntese doutrinal e
+1. **Fases 1 e 2 encerradas.** Considerar a Fase 3 (síntese doutrinal e
    homilética, que reaproveita a U04) — ver `CLAUDE.md` §1.
-2. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`), se
-   ainda não feitos — podem rodar em paralelo.
-3. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
+2. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
    nada executado contra conta real ainda.
-4. Mídia: o pré-requisito de `ESTRATEGIA_MIDIA_HILAS.md` para o módulo
+3. Mídia: o pré-requisito de `ESTRATEGIA_MIDIA_HILAS.md` para o módulo
    `HILAS-M1` está satisfeito (U01-U03 auditadas) — falta apenas execução
    real contra conta NotebookLM (não possível nesta sessão sandboxed).
-5. Se o projeto quiser fechar a lacuna de καταλλαγή/ἀπολύτρωσις (U04
+4. Se o projeto quiser fechar a lacuna de καταλλαγή/ἀπολύτρωσις (U04
    §2.3): abrir dossiê dedicado, possivelmente no Círculo C3 (Loci
    Teológicos) de `ESTRATEGIA_CIRCULOS_HILAS.md`.
-6. Considerar promover a observação de Caragounis (circularidade
+5. Considerar promover a observação de Caragounis (circularidade
    lexicográfica de Hb 2.17 em LSJ/Demetrakos/Montanari, U03) a rascunho
    formal em `_artifacts/sentinelas_HILAS.md` na próxima manutenção de
    sentinelas.
-7. Corrigir a tabela do `CLAUDE.md` §1 (U02): "genitivo objetivo" →
+6. Corrigir a tabela do `CLAUDE.md` §1 (U02): "genitivo objetivo" →
    περί+genitivo (achado da U02, não muda a pergunta teológica).
+7. Registrar em `_artifacts/sentinelas_HILAS.md` a observação sobre
+   `dossie.py --listar` não normalizar grego (Fase 1, Prompt 6) — como
+   nota de uso do ferramental, não necessariamente sentinela numerada.
+8. Priorizar aquisição de Travis e do artigo de Nicole (1955) — os itens
+   de maior recorrência nas lacunas declaradas entre Fase 1 e as
+   quatro unidades.
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
 

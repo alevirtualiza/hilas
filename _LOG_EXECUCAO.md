@@ -619,3 +619,52 @@ quatro unidades.
 síntese — ela reúne e nomeia explicitamente a sentinela nº5 (método de
 Dodd em 3 passos) como o pressuposto unificado, e menciona R6/R9/a
 observação da U03 apenas para registro de estado, sem reabri-las.
+
+## 19. Execução dos 12 prompts da Fase 1 (28/09/2026)
+
+Redigidos `fase1-introducao/saidas/01.md` a `12.md` mais
+`RELATORIO_FASE1.md`, cobrindo os quatro blocos de
+`fase1-introducao/prompts_HILAS.md` (A: lexical hebraico; B: lexical
+grego/ponte LXX; C: disputa central em fonte primária; D: história da
+interpretação). Onde um prompt já estava coberto em profundidade por uma
+unidade de Fase 2 (ex.: Prompt 7, ἱλαστήριον em Rm 3.25), a saída de
+Fase 1 resume com remissão explícita, evitando duplicar trabalho já
+auditado.
+
+**Verificações diretas novas nesta sessão (além do que já estava
+auditado em U01-U04):** BDB verbete 4612 (etimologia de כפר, Prompt 1);
+BDAG verbete ἐξιλάσκομαι completo (Prompt 5); NA28 Rm 1.18, 1.24, 1.26
+via `buscar_grego.py` (Prompt 10, antes não conferidos diretamente);
+Milgrom sobre terminologia אָשָׁם/חַטָּאת (Prompt 3); HillJames sobre o
+capítulo de Carson em Rm 3.21-26 (Prompt 12).
+
+**Achado sobre o próprio ferramental do projeto (Prompt 6):**
+`dossie.py --listar "ἱλασ"` no NA28 reporta 4 ocorrências, não as 6 já
+confirmadas individualmente via `buscar_grego.py`. Causa confirmada por
+leitura do código-fonte de `_scripts/dossie.py`: o script faz
+correspondência de substring simples via `re.finditer`, **sem nenhuma
+normalização Unicode** — o próprio `--help` do script já avisa "para
+grego use buscar_grego.py", mas isso nunca havia sido destacado em uma
+saída antes. Não é um bug novo, é uma limitação documentada mas não
+enfatizada — registrado para evitar que `dossie.py --listar` seja usado
+como método de conteúdo da dupla checagem para termos gregos.
+
+**Lacunas reais confirmadas com dupla checagem formal (novas, não
+apenas herdadas):** Calvino (nenhuma obra no acervo, Prompt 11); Travis
+(ausência confirmada por grep + listagem, Prompt 12); Cremer (presente
+no acervo via BDAG, mas nunca ligado ao grupo ἱλασκ- nas citações
+localizadas, Prompt 12); Is 53.10 (nenhuma fonte trata do texto
+diretamente, Prompt 3); Filo/Josefo/Büchsel/Nicole-1955/John Murray,
+texto primário (Prompts 4, 9, 10, já conhecidas de `ESCOPO_HILAS.md`
+mas agora reconfirmadas com dupla checagem específica a cada prompt).
+
+**Achado novo relevante para o Círculo C5:** o capítulo de D. A. Carson
+em `HillJames_The_Glory_of_the_Atonement.md` (dedicado a Roger Nicole)
+responde primariamente à "nova perspectiva sobre Paulo" (Sanders, Dunn,
+Wright), não a Dodd diretamente — sugere que a linhagem
+Cremer→Dodd→Morris/Nicole→Stott/Carson/Travis do `CLAUDE.md` §1 trata
+dois adversários históricos relacionados, mas distintos, como um só.
+Recomendado para aprofundamento no Círculo C5 (História da
+Interpretação).
+
+**Com esta execução, tanto a Fase 1 quanto a Fase 2 estão completas.**
