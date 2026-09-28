@@ -249,11 +249,11 @@ conferência em fonte primária (léxico + texto grego).**
 
 ## 8. Pauta de aquisição
 
-> ✅ **Atualizado em 28/09/2026 — estado real após 11 arquivos recebidos e
-> aprovados em `biblioteca/`** (ver `CURADORIA_FONTES_HILAS.md`). As
-> linhas ✅ já estão **dentro do projeto**, não mais "reaproveitáveis":
-> NA28, Morris, Nicole (*Our Sovereign Saviour*), Packer, Harrison
-> (Levítico, PT), BDB (3 vols.), Milgrom (2 partes), UBS5.
+> ✅ **Atualizado em 28/09/2026 — estado real após 14 arquivos recebidos e
+> aprovados em `biblioteca/`** (ver `CURADORIA_FONTES_HILAS.md`). O núcleo
+> bibliográfico do debate central está **completo**, incluindo Dodd na
+> íntegra (não mais mitigação via citação em Morris) e confirmação tripla
+> independente da bibliografia acadêmica (Morris, Dodd, BDAG).
 
 | Prioridade | Obra | Por quê | Estado |
 |---|---|---|---|
@@ -265,9 +265,10 @@ conferência em fonte primária (léxico + texto grego).**
 | ✅ **no projeto** | BDB, *Hebrew and English Lexicon* (1906), 3 vols. | verbete de כַּפֹּרֶת cita a LXX = ἱλαστήριον | `biblioteca/BDB_...md` |
 | ✅ **no projeto** | Jacob Milgrom, *Leviticus 1-16* (AYB), 2 partes | comentário técnico máximo de Lv 16 | `biblioteca/Milgrom_...md` |
 | ✅ **no projeto** | UBS5, *The Greek New Testament* | texto grego alternativo (aprovado após correção de bug de glifo) | `biblioteca/UBS5_...md` |
-| 🟡 pendente, localizado | BDAG (Bauer-Danker-Arndt-Gingrich) | léxico primário de referência | **confirmado em `Justiça-de-Deus\_processados_md\BDAG_Greek_English_Lexicon_NT_OCRv2.md`** — pedir a seguir |
-| 🔴 **ausente nas duas pastas irmãs verificadas** | C. H. Dodd, *The Bible and the Greeks* (1935, com o ensaio de 1931) | fonte primária do adversário — item (1) do padrão. Mitigado: Morris cita seu método e argumento extensamente (ver sentinela 5) | não localizado — nem em `Tabernáculo\biblioteca` nem em `Justiça-de-Deus\_processados_md` |
-| 🔴 3 (rebaixado) | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), artigo | distinto do livro *Our Sovereign Saviour*, já no projeto. Mitigado: Morris cita e resume com precisão (sentinela 5) | não localizado |
+| ✅ **no projeto** | BDAG (Bauer-Danker-Arndt-Gingrich) | léxico primário — confirma bibliografia do debate de forma independente | `biblioteca/BDAG_Greek_English_Lexicon_NT.md` |
+| ✅ **no projeto** | C. H. Dodd, *The Bible and the Greeks* (1935, com o ensaio de 1931) | fonte primária do adversário, item (1) e (2) do padrão — **na íntegra, não mais mitigação** | `biblioteca/Dodd_-_The_Bible_and_the_Greeks_texto.md` |
+| 🟡 baixa prioridade | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), pp. 117-157 | artigo, distinto do livro *Our Sovereign Saviour* já no projeto. Página exata confirmada de forma independente por Morris **e** pelo BDAG — conteúdo já bem representado, aquisição opcional | não localizado |
+| 🟡 novo | Leon Morris, *Expository Times* 62 (1951), pp. 227-233 | **achado via BDAG** — artigo mais antigo de Morris, distinto do livro de 1955 já no projeto | não localizado |
 | 🔴 **ausente nas duas pastas irmãs verificadas** | Thayer, *Greek-English Lexicon of the NT* | léxico primário | não localizado |
 | 🔴 **ausente nas duas pastas irmãs verificadas** | Moulton-Milligan, *Vocabulary of the Greek Testament* | uso extrabíblico (papiros) | não localizado |
 | 🟡 5 | TDNT (Kittel), verbete ἵλεως κτλ. (vol. 3, Büchsel) | citado dentro de Morris (Büchsel é discutido diretamente) — texto completo do TDNT ainda não localizado | não localizado |
@@ -276,7 +277,7 @@ conferência em fonte primária (léxico + texto grego).**
 | 🟡 8 | Stephen Travis, *Christ and the Judgment of God* (rev. 2008) | posição intermediária a mapear com cuidado | não localizado |
 | 🟢 9 | Louw-Nida, *Greek-English Lexicon of the NT Based on Semantic Domains* | classificação por domínio semântico | não localizado |
 | 🟢 10 | Albrecht Ritschl, sobre reconciliação (séc. XIX) | precursor a verificar (sentinela R6, ainda aberta) | não localizado |
-| 🟢 11 | Wenham, *The Book of Leviticus* (NICOT) | apoio adicional a U01 — confirmado em `Tabernáculo\biblioteca` | disponível para pedir, ainda não enviado |
+| ✅ **no projeto** | Wenham, *The Book of Leviticus* (NICOT) | apoio a U01 — hebraico/grego preservados como imagem (Regra 15), usar só o argumento | `biblioteca/Wenham_Leviticus_NICOT.md` |
 
 > **Sem ISBN, de propósito** — autor+título+ano+editora identificam sem
 > ambiguidade e evitam levar a edição errada (mesma razão do molde de

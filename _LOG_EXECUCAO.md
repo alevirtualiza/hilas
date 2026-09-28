@@ -311,3 +311,41 @@ o que este projeto precisa:
 - Demais 116 arquivos são do escopo de "Justiça de Deus" (NPP, Käsemann,
   Sanders, Wright, patrística/Reforma sobre δικαιοσύνη θεοῦ) — fora do
   recorte lexical deste projeto, não solicitados.
+
+## 10. Dodd, BDAG e Wenham — a lacuna mais importante fechada (28/09/2026)
+
+Usuário anexou os três arquivos que faltavam do núcleo bibliográfico:
+BDAG (já reOCR'd pelo pipeline de origem em 25/08/2026), Wenham
+(*Leviticus*, NICOT) e — o mais importante — **Dodd, *The Bible and the
+Greeks*, na íntegra**.
+
+**Dodd:** capítulo V ("Atonement") é literalmente o ensaio de 1931 (*JTS*
+32, 352-60) incorporado ao livro de 1935. Lido diretamente: o método
+completo de Dodd de classificar as traduções da LXX para כפר (Dn 9.24,
+Êx 30.10, Dt 32.43, Is 6.11, Jr 18.23, todos com grego e hebraico
+originais). **Grego de alta densidade e confiável** (1077 palavras
+gregas/10k). Isso substitui a mitigação parcial que o projeto tinha até
+agora (citação de Dodd via Morris) pela fonte primária real — os itens
+(1) e (2) do padrão de refutação estão satisfeitos sem intermediário.
+
+**BDAG:** verbetes de ἱλάσκομαι/ἱλασμός/ἱλαστήριον lidos por completo.
+Confirma de forma **independente** (terceira fonte, depois de Morris e do
+próprio texto de Dodd) a bibliografia exata do debate: Dodd *JTS* 32
+('31, 352-60), Nicole *WTJ* 17 ('55, 117-57), e revela **um terceiro texto
+de Morris** — *Expository Times* 62 ('51, 227-33), mais antigo que o
+livro de 1955 e ainda não localizado. Também cita Manson (*JTS* 46, '45,
+1-10) sobre ἱλαστήριον como "lugar de propiciação" em Rm 3.25, e
+Breytenbach (1989) contra essa leitura — debate direto para a Unidade 01.
+
+**Wenham:** reprova parcial na Porta 2 — 649 imagens, 0 caracteres
+hebraicos/gregos reais no arquivo inteiro. **Mesmo padrão já medido em
+`Wenham_Genesis_1-15_WBC` nos projetos-irmãos** (hebraico/grego
+preservados como imagem, não como texto, em conversões de EPUB desta
+série). Entra como Tier A1, classe "SEM FORMA ORIGINAL" — usar o
+argumento, nunca citar forma hebraica/grega dele diretamente.
+
+**Sentinela migrada:** nº8 (citação de Dodd/Nicole/Morris, agora com
+tripla confirmação independente — Morris, o próprio Dodd, e o BDAG).
+Estado: 8/6 sentinelas verificadas.
+
+**Estado da biblioteca: 14 arquivos.**

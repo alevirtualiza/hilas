@@ -100,6 +100,34 @@ copiar trecho colado sem reler o contexto.
 
 ---
 
+## ✅ Quinto lote recebido e aprovado (28/09/2026) — Dodd, BDAG, Wenham
+
+**A lacuna mais importante do projeto está fechada: Dodd na íntegra.**
+
+| Arquivo | Tier | Papel |
+|---|---|---|
+| `biblioteca/Dodd_-_The_Bible_and_the_Greeks_texto.md` | S | **fonte primária do adversário** — cap. V "Atonement" é o próprio ensaio de 1931 (*JTS* 32), com o método completo de classificação das traduções da LXX, grego real de alta densidade |
+| `biblioteca/BDAG_Greek_English_Lexicon_NT.md` | S | léxico grego primário — verbetes de ἱλάσκομαι/ἱλασμός/ἱλαστήριον citam a bibliografia acadêmica exata do debate, de forma independente |
+| `biblioteca/Wenham_Leviticus_NICOT.md` | A1 (SEM FORMA ORIGINAL) | comentário técnico de Levítico — hebraico/grego preservados como imagem (mesmo padrão já medido em `Wenham_Genesis_1-15_WBC` nos projetos-irmãos); usar só o argumento |
+
+**Achado que fecha a sentinela 8 (citação de Dodd/Nicole) com tripla
+confirmação independente:** o BDAG cita, no próprio verbete de
+ἱλάσκομαι, a bibliografia exata do debate — `CDodd, JTS 32, '31, 352-60`
+(o artigo original), `LMorris, ET 62, '51, 227-33` (**um terceiro texto de
+Morris, mais antigo, ainda não localizado — distinto do livro de 1955**),
+`RNicole, WTJ 17, '55, 117-57` (confirma as páginas exatas do artigo,
+ainda não localizado na íntegra), e ainda `TManson, JTS 46, '45, 1-10`
+(a leitura de ἱλαστήριον como "lugar de propiciação" em Rm 3.25, contra a
+qual Breytenbach 1989 argumenta) — **material direto para a Unidade 01**
+sobre a disputa Manson × Breytenbach.
+
+**Item (1) e (2) do padrão de refutação estão agora satisfeitos na
+íntegra para Dodd** — não mais mitigação parcial via citação em Morris,
+mas o próprio texto primário do adversário, disponível para leitura
+direta e citação exata.
+
+---
+
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)
 
 Se este projeto reaproveitar um `.md` já convertido de outro projeto (em vez
