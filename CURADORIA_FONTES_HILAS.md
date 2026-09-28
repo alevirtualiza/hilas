@@ -155,6 +155,29 @@ de I. Howard Marshall).
 
 ---
 
+## ✅ Sétimo lote recebido e aprovado (28/09/2026) — Caragounis (quinta confirmação)
+
+| Arquivo | Tier | Papel |
+|---|---|---|
+| `biblioteca/Caragounis_Expiation-Propitiation-Reconciliation.md` | S | artigo moderno (2020), filólogo grego (Lund University) — grego real de alta qualidade, sempre com transliteração |
+
+**(Duplicata descartada:** um segundo envio de `Stott_The_Cross_of_Christ.epub`
+tinha SHA-256 idêntico ao já processado — não reprocessado.)
+
+**Caragounis é a fonte mais precisa do projeto até agora sobre a
+bibliografia do debate** — dá o **título completo** do artigo de Dodd:
+"Ἱλάσκεσθαι, its cognates, derivatives and synonyms in the Septuagint",
+*JTS* 32 (1931), pp. 352-360, confirma que foi reimpresso como capítulo 5
+("Atonement") de *The Bible and the Greeks*, e cita ainda Dodd, *The
+Epistle to the Romans* (Moffatt NTC, 1932), *ad loc*. **Quinta
+confirmação independente** da citação de Nicole (*WTJ* 17, 1955, pp.
+117-157). Acrescenta dois dados novos: **Cranfield** também criticou Dodd
+("failed to pay adequate attention to the context"), e a referência exata
+de **Büchsel em TDNT vol. III, p. 311f** (ainda não localizado na íntegra,
+mas agora com paginação exata para busca dirigida).
+
+---
+
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)
 
 Se este projeto reaproveitar um `.md` já convertido de outro projeto (em vez

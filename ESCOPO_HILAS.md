@@ -249,35 +249,44 @@ conferência em fonte primária (léxico + texto grego).**
 
 ## 8. Pauta de aquisição
 
-> ✅ **Atualizado em 28/09/2026 — estado real após 14 arquivos recebidos e
+> ✅ **Atualizado em 28/09/2026 — estado real após 17 arquivos recebidos e
 > aprovados em `biblioteca/`** (ver `CURADORIA_FONTES_HILAS.md`). O núcleo
 > bibliográfico do debate central está **completo**, incluindo Dodd na
-> íntegra (não mais mitigação via citação em Morris) e confirmação tripla
-> independente da bibliografia acadêmica (Morris, Dodd, BDAG).
+> íntegra, e confirmado de forma **quíntupla e independente** (Morris,
+> BDAG, Stott, Caragounis, e o próprio Dodd).
 
-| Prioridade | Obra | Por quê | Estado |
+### No projeto
+
+| Obra | Por quê | Arquivo |
+|---|---|---|
+| NA28, *Novum Testamentum Graece* | texto grego base | `biblioteca/NA28_Novum-Testamentum-Graece.md` |
+| UBS5, *The Greek New Testament* | texto grego alternativo | `biblioteca/UBS5_The-Greek-New-Testament.md` |
+| C. H. Dodd, *The Bible and the Greeks* (Hodder & Stoughton, 1935, cap. 5 = o ensaio de 1931) | fonte primária do adversário, na íntegra | `biblioteca/Dodd_-_The_Bible_and_the_Greeks_texto.md` |
+| Leon Morris, *The Apostolic Preaching of the Cross* (1955) | a resposta clássica; cita Dodd e Nicole diretamente | `biblioteca/Morris_Apostolic_Preaching_of_the_Cross.md` |
+| Roger Nicole, *Our Sovereign Saviour* | 1Jo 2.2, extensão da propiciação | `biblioteca/Nicole_Our_Sovereign_Saviour.md` |
+| J. I. Packer, *Knowing God* | Rm 3.24-25, 1Jo 2.2, cap. 18 | `biblioteca/Packer_KnowingGod.md` |
+| John R. W. Stott, *The Cross of Christ* (Leicester: Inter-Varsity Press, 1986) | síntese pastoral-acadêmica clássica — confirma Nicole pela 4ª vez | `biblioteca/Stott_The_Cross_of_Christ.md` |
+| D. A. Carson, "Atonement in Romans 3:21-26", em Hill & James (eds.), *The Glory of the Atonement* (InterVarsity Press, 2004) | trata Rm 3.21-26 diretamente; livro dedicado a Roger Nicole | `biblioteca/HillJames_The_Glory_of_the_Atonement.md` (⚠️ grego cifrado, só argumento) |
+| Chrys C. Caragounis, "Expiation-Propitiation-Reconciliation" (2020) | confirma Nicole pela 5ª vez; dá o título completo do artigo de Dodd; cita Cranfield e a página exata de Büchsel no TDNT | `biblioteca/Caragounis_Expiation-Propitiation-Reconciliation.md` |
+| BDAG (Bauer-Danker-Arndt-Gingrich) | léxico grego primário — confirma a bibliografia do debate de forma independente | `biblioteca/BDAG_Greek_English_Lexicon_NT.md` |
+| BDB, *Hebrew and English Lexicon* (1906), 3 vols. | verbete de כַּפֹּרֶת cita a LXX = ἱλαστήριον | `biblioteca/BDB_Hebrew_Lexicon_1906_P*.md` |
+| R. K. Harrison, *Levítico* (edição PT, Série Cultura Bíblica) | etimologia de kipper/ἱλαστήριον | `biblioteca/Harrison_Levitico_Introducao_e_Comentario_PT.md` |
+| Jacob Milgrom, *Leviticus 1-16* (AYB), 2 partes | comentário técnico máximo de Lv 16 | `biblioteca/Milgrom_Leviticus1-16_P*.md` |
+| Gordon J. Wenham, *The Book of Leviticus* (NICOT) | apoio a U01 — hebraico/grego preservados como imagem (Regra 15), usar só o argumento | `biblioteca/Wenham_Leviticus_NICOT.md` |
+
+### Ainda não localizado — referência bibliográfica completa
+
+| Obra | Referência completa | Por quê importa | Prioridade |
 |---|---|---|---|
-| ✅ **no projeto** | NA28, *Novum Testamentum Graece* | texto grego base | `biblioteca/NA28_Novum-Testamentum-Graece.md` |
-| ✅ **no projeto** | Leon Morris, *The Apostolic Preaching of the Cross* | a resposta clássica; cita Dodd e Nicole diretamente | `biblioteca/Morris_...md` |
-| ✅ **no projeto** | Roger Nicole, ***Our Sovereign Saviour*** | 1Jo 2.2, extensão da propiciação | `biblioteca/Nicole_...md` |
-| ✅ **no projeto** | J. I. Packer, *Knowing God* | Rm 3.24-25, 1Jo 2.2, cap. 18 | `biblioteca/Packer_...md` |
-| ✅ **no projeto** | R. K. Harrison, *Levítico* (edição PT, Série Cultura Bíblica) | etimologia de kipper/ἱλαστήριον | `biblioteca/Harrison_...md` |
-| ✅ **no projeto** | BDB, *Hebrew and English Lexicon* (1906), 3 vols. | verbete de כַּפֹּרֶת cita a LXX = ἱλαστήριον | `biblioteca/BDB_...md` |
-| ✅ **no projeto** | Jacob Milgrom, *Leviticus 1-16* (AYB), 2 partes | comentário técnico máximo de Lv 16 | `biblioteca/Milgrom_...md` |
-| ✅ **no projeto** | UBS5, *The Greek New Testament* | texto grego alternativo (aprovado após correção de bug de glifo) | `biblioteca/UBS5_...md` |
-| ✅ **no projeto** | BDAG (Bauer-Danker-Arndt-Gingrich) | léxico primário — confirma bibliografia do debate de forma independente | `biblioteca/BDAG_Greek_English_Lexicon_NT.md` |
-| ✅ **no projeto** | C. H. Dodd, *The Bible and the Greeks* (1935, com o ensaio de 1931) | fonte primária do adversário, item (1) e (2) do padrão — **na íntegra, não mais mitigação** | `biblioteca/Dodd_-_The_Bible_and_the_Greeks_texto.md` |
-| 🟡 baixa prioridade | Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), pp. 117-157 | artigo, distinto do livro *Our Sovereign Saviour* já no projeto. Página exata confirmada de forma independente por Morris **e** pelo BDAG — conteúdo já bem representado, aquisição opcional | não localizado |
-| 🟡 novo | Leon Morris, *Expository Times* 62 (1951), pp. 227-233 | **achado via BDAG** — artigo mais antigo de Morris, distinto do livro de 1955 já no projeto | não localizado |
-| 🔴 **ausente nas duas pastas irmãs verificadas** | Thayer, *Greek-English Lexicon of the NT* | léxico primário | não localizado |
-| 🔴 **ausente nas duas pastas irmãs verificadas** | Moulton-Milligan, *Vocabulary of the Greek Testament* | uso extrabíblico (papiros) | não localizado |
-| 🟡 5 | TDNT (Kittel), verbete ἵλεως κτλ. (vol. 3, Büchsel) | citado dentro de Morris (Büchsel é discutido diretamente) — texto completo do TDNT ainda não localizado | não localizado |
-| 🟡 6 | John Stott, *The Cross of Christ* (1986), cap. sobre "propitiation" | síntese pastoral-acadêmica contemporânea | não localizado |
-| ✅ **no projeto** | D. A. Carson, "Atonement in Romans 3:21-26", em Hill & James (eds.), *The Glory of the Atonement* | trata Rm 3.21-26 diretamente; o livro é dedicado a Roger Nicole | `biblioteca/HillJames_The_Glory_of_the_Atonement.md` (⚠️ grego cifrado, só argumento) |
-| 🟡 8 | Stephen Travis, *Christ and the Judgment of God* (rev. 2008) | posição intermediária a mapear com cuidado | não localizado |
-| 🟢 9 | Louw-Nida, *Greek-English Lexicon of the NT Based on Semantic Domains* | classificação por domínio semântico | não localizado |
-| 🟢 10 | Albrecht Ritschl, sobre reconciliação (séc. XIX) | precursor a verificar (sentinela R6, ainda aberta) | não localizado |
-| ✅ **no projeto** | Wenham, *The Book of Leviticus* (NICOT) | apoio a U01 — hebraico/grego preservados como imagem (Regra 15), usar só o argumento | `biblioteca/Wenham_Leviticus_NICOT.md` |
+| Thayer | Joseph Henry Thayer, *A Greek-English Lexicon of the New Testament: Being Grimm's Wilke's Clavis Novi Testamenti* (1889) | léxico primário | 🟡 |
+| Moulton-Milligan | James Hope Moulton & George Milligan, *The Vocabulary of the Greek Testament Illustrated from the Papyri and Other Non-Literary Sources* (Hodder & Stoughton, 1914-1929) | uso extrabíblico (papiros) | 🟡 |
+| Artigo de Nicole (1955) | Roger R. Nicole, "C. H. Dodd and the Doctrine of Propitiation," *Westminster Theological Journal* 17 (1955), pp. 117-157 | confirmado 5× de forma indireta (Morris, BDAG, Stott, Caragounis); conteúdo já bem representado — aquisição opcional | 🟢 baixa |
+| TDNT | Gerhard Kittel (ed., depois Gerhard Friedrich), *Theological Dictionary of the New Testament* (trad. Geoffrey W. Bromiley) — verbete ἵλεως κτλ. de **Friedrich Büchsel**, vol. 3, **p. 311f** (paginação exata via Caragounis) | citado indiretamente 3×; texto integral ainda não localizado | 🟡 |
+| Carson (obra própria, além do capítulo já no projeto) | D. A. Carson — sem título único adicional necessário; o capítulo em Hill & James já cobre o essencial | já coberto | — |
+| Travis | Stephen H. Travis, *Christ and the Judgment of God: The Limits of Divine Retribution in New Testament Thought* (Paternoster, 1986; ed. revista, Paternoster, 2008) | posição intermediária a mapear com cuidado | 🟡 |
+| Louw-Nida | Johannes P. Louw & Eugene A. Nida (eds.), *Greek-English Lexicon of the New Testament Based on Semantic Domains* (United Bible Societies, 1988-1989, 2 vols.) | classificação por domínio semântico | 🟢 |
+| Ritschl | Albrecht Ritschl, *Die christliche Lehre von der Rechtfertigung und Versöhnung* (1870-1874) — trad. inglesa: *A Critical History of the Christian Doctrine of Justification and Reconciliation* (1900) | precursor a verificar (sentinela R6, ainda aberta) | 🟢 |
+| Leon Morris (artigo, além do livro já no projeto) | Leon Morris, artigo em *The Expository Times* 62 (1951), pp. 227-233 | mais antigo que o livro de 1955; achado via BDAG | 🟢 baixa |
 
 > **Sem ISBN, de propósito** — autor+título+ano+editora identificam sem
 > ambiguidade e evitam levar a edição errada (mesma razão do molde de

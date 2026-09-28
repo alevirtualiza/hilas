@@ -384,3 +384,24 @@ ausente" de um epub convertido. Arquivo entra como Tier S, mas com aviso
 explícito: nunca citar forma grega exata dele.
 
 **Estado: 16 arquivos na biblioteca, 9/6 sentinelas [PRONTO].**
+
+## 12. Caragounis — quinta confirmação independente (28/09/2026)
+
+Usuário anexou o artigo de Chrys C. Caragounis (Lund University),
+"Expiation-Propitiation-Reconciliation" (2020), e um segundo envio de
+Stott (SHA-256 idêntico ao já processado — descartado como duplicata,
+não reprocessado).
+
+**Caragounis é, até agora, a fonte mais precisa do projeto sobre a
+bibliografia do debate.** Dá o título completo do artigo de Dodd —
+"Ἱλάσκεσθαι, its cognates, derivatives and synonyms in the Septuagint",
+*JTS* 32 (1931), pp. 352-360 — confirma que foi reimpresso como capítulo
+5 ("Atonement") de *The Bible and the Greeks*, e cita ainda Dodd, *The
+Epistle to the Romans* (Moffatt NTC, 1932) *ad loc*. **Quinta confirmação
+independente e idêntica** da citação de Nicole (*WTJ* 17, 1955, pp.
+117-157). Dois dados novos: Cranfield também criticou Dodd; e a
+referência exata de Büchsel em TDNT vol. III, p. 311f (paginação exata,
+ainda não localizado na íntegra).
+
+**Sentinela 8 atualizada com a quinta fonte.** Estado: 17 arquivos na
+biblioteca, 9/6 sentinelas [PRONTO].
