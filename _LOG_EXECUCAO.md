@@ -724,10 +724,20 @@ Travis é obra comercial em copyright; mesmo o artigo de Nicole, apesar
 de haver uma via de acesso aberto legítima conhecida (biblicalstudies.org.uk),
 não pôde ser buscada por causa do bloqueio de rede, não por escolha.
 
-**Próxima ação recomendada, registrada para o usuário:** (a) liberar o
-domínio `biblicalstudies.org.uk` na política de rede do ambiente e
-tentar novamente nesta ou numa próxima sessão; ou (b) o usuário baixar o
-artigo diretamente (gratuito, uma vez identificado o link exato na
-página de índice de WTJ 1-20) e anexar no chat, como já fez com as
-demais fontes do projeto; ou (c) para Travis, adquirir e anexar, dado
-não haver via gratuita conhecida.
+**Segunda tentativa, via `curl` direto (não apenas a ferramenta
+`WebFetch`), a pedido do usuário:** `biblicalstudies.org.uk`,
+`galaxie.com`, `wtj.wts.edu` e até `web.archive.org` (Wayback Machine,
+tentativa de contornar via cópia arquivada) — **todos bloqueados no
+nível do proxy de rede do ambiente** ("CONNECT tunnel failed, response
+403" / "connect_rejected... organization policy"). Isto confirma que a
+restrição é de política organizacional deste ambiente, não uma
+particularidade de uma ferramenta — não há rota alternativa disponível
+de dentro desta sessão.
+
+**Próxima ação recomendada, registrada para o usuário:** (a) liberar
+esses domínios (ou a categoria "acesso amplo") na política de rede do
+ambiente (menu do ambiente → Edit → Network access) e pedir para tentar
+de novo; ou (b) o usuário baixar diretamente (o Nicole é gratuito uma
+vez localizado o link exato na página de índice de WTJ 1-20; o Travis
+precisa ser comprado) e anexar no chat, como já fez com as demais fontes
+do projeto.
