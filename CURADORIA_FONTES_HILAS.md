@@ -6,6 +6,22 @@ projeto-irmão `Dikaiosyne Theou` e o **inventário do que ele já mediu** como
 disponível ou ausente para exatamente esta tríade — para que a aquisição
 comece informada, não do zero absoluto.*
 
+## ✅ Primeira fonte real recebida e aprovada (28/09/2026)
+
+| Arquivo | Portas | Tier | Palavras |
+|---|---|---|---|
+| `biblioteca/NA28_Novum-Testamentum-Graece.md` | 1 ✅ (metadado do epub: Aland, ISBN 978-3-438-07236-8) · 2 ✅ (0 imagens de alfabeto) · 3 ✅ (`buscar_grego.py --teste` aprovado, 6/6) · 4 ✅ (leitura direta das 6 ocorrências, aparato legível) · 6 ✅ | **S** | 638.153 |
+
+Enviado pelo usuário como `.epub` original (não reaproveitado de projeto
+irmão), extraído nesta sessão com `ebooklib`+`BeautifulSoup`. **Acima do
+teto usual de upload ao NotebookLM (450-525 mil palavras)** — dividir com
+`dividir_md.py` (a escrever) antes de subir a um caderno; para uso local
+(grep, `dossie.py`, `buscar_grego.py`) o arquivo único está correto.
+
+As seis ocorrências da tríade foram lidas integralmente nesta sessão — ver
+`_artifacts/sentinelas_HILAS.md`, sentinelas 1-4 da tabela oficial, agora
+**verificadas neste projeto**, não mais só "achado do projeto-irmão".
+
 ---
 
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)

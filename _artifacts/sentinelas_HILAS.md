@@ -16,13 +16,23 @@ reserva, sujeitas a poda.
 
 ---
 
-## Tabela oficial (verificada, NESTE projeto) — VAZIA
+## Tabela oficial (verificada, NESTE projeto)
+
+*Verificação real feita em 28/09/2026: `biblioteca/NA28_Novum-Testamentum-Graece.md`
+(NA28, epub original enviado pelo usuário, extraído e conferido nesta
+sessão — ver `_LOG_EXECUCAO.md`). Não é mais "achado do projeto-irmão" —
+é conferência própria contra a fonte primária.*
 
 | N | Sentinela | O que não fazer | Classificação |
 |---|---|---|---|
+| 1 | **ἱλαστήριον em Rm 3.25 é anartro** (`ὃν προέθετο ὁ θεὸς ✝ ἱλαστήριον`) — Hb 9.5 traz o mesmo termo com artigo, referindo-se ao móvel do santuário (`τὸ ἱλαστήριον`) | tratar as duas ocorrências como univocamente a mesma referência, ou usar o anartro de Rm 3.25 para *decidir* que não há alusão ao *kapporet* | **[FATO TEXTUAL]** a diferença de artigo entre os dois versos, conferida no NA28. **[HIPÓTESE DEBATIDA]** se isso decide contra a alusão tipológica — a identificação com o *kapporet* continua sendo inferência (Manson, Morris), disputada (Deissmann: leitura adjetiva) |
+| 2 | **Hb 2.17 tem "os pecados" como objeto gramatical do verbo** ἱλάσκεσθαι (`εἰς τὸ ἱλάσκεσθαι ⸂τὰς ἁμαρτίας⸃ τοῦ λαοῦ`), diferente de Lc 18.13, onde ὁ θεός é vocativo/objeto do apaziguamento (`ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ`) | usar Hb 2.17 sozinho para provar que o NT nunca tem Deus como alvo do verbo, ignorando Lc 18.13; ou usar Lc 18.13 sozinho para negar que o verbo trate de remoção de pecado | **[FATO TEXTUAL]** ambas as regências, conferidas no NA28. **[INFERÊNCIA FORTE]** que a síntese (U04) precisa harmonizar as duas construções, não escolher uma |
+| 3 | **1Jo 2.2 tem a extensão explícita** "não somente pelos nossos, mas também pelos de todo o mundo" (`οὐ περὶ τῶν ἡμετέρων δὲ μόνον ἀλλὰ καὶ περὶ ὅλου τοῦ κόσμου`), confirmada por completo no NA28 | usar essa extensão para decidir sozinha o debate lexical Dodd/Morris (propiciação × expiação), que é questão distinta da extensão do alcance | **[FATO TEXTUAL]** a oração completa, conferida no NA28. **[HIPÓTESE DEBATIDA]** entre tradições confessionais quanto ao alcance (particular × universal) — debate diferente do debate lexical central deste projeto |
+| 4 | **Busca literal por grego acentuado pode dar falso negativo** — ferramenta, não achado teológico | declarar ausência de ἱλαστήριον/ἱλασμός/ἱλάσκομαι num arquivo por `grep` simples que não bata | **[DADO HISTÓRICO/OPERACIONAL]** confirmado nesta sessão: `buscar_grego.py --teste` aprovou corretamente contra o arquivo real deste projeto (`biblioteca/NA28_Novum-Testamentum-Graece.md`), inclusive num teste sintético com NFC/NFD misto. Regra: busca literal em grego acentuado é proibida — todo grep passa pelo script |
 
-*(0 linhas — trava ativa por design. `_scripts/verificar_sentinelas.py`
-retorna exit 2 enquanto esta tabela estiver vazia.)*
+*(4 sentinelas verificadas — 2 abaixo do critério de saída de 6.
+`_scripts/verificar_sentinelas.py` deve retornar exit 1 [INCOMPLETO], não
+mais exit 2 [VAZIO].)*
 
 ---
 
@@ -32,20 +42,20 @@ retorna exit 2 enquanto esta tabela estiver vazia.)*
 |---|---|---|---|
 | R1 | **"Propiciação" e "expiação" não são sinônimos de tradução neutra** | tratá-las como estilo, não tese | — (analítico, não depende de conferência textual) |
 | R2 | **Dodd não nega a ira de Deus como conceito** | espantalho: "Dodd apaga a ira" | `LOG_QUERIES.md` DIKA-92 #4-5: a formulação correta de Dodd, extraída **da própria obra dele** (*The Johannine Epistles*, Moffatt NTC, já no acervo do projeto-irmão) é: ele distingue o **grego pagão extrabíblico** (onde aceita sentido propiciatório) do **uso bíblico** (onde nega que Deus seja objeto do verbo, preferindo expiar/purificar). Isto é o argumento real, não a versão achatada |
-| R3 | **ἱλαστήριον em Rm 3.25 e Hb 9.5 não são a mesma referência sem mais** | assumir univocidade | **Conferido no NA28 em 01/09/2026** (projeto-irmão, S11): Rm 3.25 traz ἱλαστήριον **anartro** (sem artigo — `προέθετο ὁ θεὸς ἱλαστήριον`). O anartro é **dado a pesar, não a decidir** — a identificação com o *kapporet* continua sendo inferência (Manson, Morris), disputada (Deissmann: adjetivo/objeto votivo) |
+| R3 | ✅ **MIGRADA para a tabela oficial (nº1), 28/09/2026** — ver acima | — | — |
 | R4 | **A etimologia de כפר não tem consenso fechado** | escolher uma hipótese sem rótulo | Mesmo o projeto-irmão trata como disputa aberta entre *purgar* (Milgrom) e *resgatar* (Sklar), marcado `[a conferir em primária]` — nenhuma das duas dada como resolvida |
-| R5 | **Extensão (1Jo 2.2) ≠ eficácia** | usar "todo o mundo" para decidir sozinho o debate lexical | **Conferido no NA28** (S19 do projeto-irmão): 1Jo 2.2 lê `οὐ περὶ τῶν ἡμετέρων δὲ μόνον ἀλλὰ καὶ περὶ ὅλου τοῦ κόσμου`. Lá, isto é tratado como debate **N1** (entre tradições confessionais que aceitam a mesma inerrância), com **três desfechos legítimos** (reformado, wesleyano, pentecostal), refutação **proibida** entre eles — só refutável a leitura que nega objeto pessoal (Dodd) |
+| R5 | ✅ **MIGRADA para a tabela oficial (nº3), 28/09/2026** — ver acima | — | — |
 | R6 | **Não presumir que Ritschl antecipa exatamente Dodd** | citar como a mesma posição sem checar | ainda **não conferido** em nenhum dos dois projetos — permanece aberto |
 | R7 | **Citação precisa de Dodd — dois textos, não um** | misturar artigo (1931) e livro (1935) | *JTS* 32 (1931), pp. 352-360 — artigo; *The Bible and the Greeks* (1935) — capítulo. **Achado do projeto-irmão (10-B item 3):** a obra de 1935 **não está no acervo disponível**; o que está, convertido e pronto, é a **nota de Dodd em *The Johannine Epistles* (Moffatt NTC)**, que expõe a mesma tese aplicada a 1Jo 2.2/4.10 — mitigação parcial, não substituição |
 | R8 | **A mudança da RSV (1946) não se estende automaticamente a revisões posteriores** | afirmar "as Bíblias modernas usam expiação" sem checar edição por edição | não conferido — permanece pauta |
 | R9 | **4 Macabeus 17.22 — confirmar a palavra exata** | citar de memória | não conferido — permanece pauta |
-| R10 | **Hb 2.17 (objeto = pecados) não decide sozinho contra Lc 18.13 (objeto = Deus)** | usar um para anular o outro | **Conferido no NA28** (S13 do projeto-irmão): Hb 2.17 lê `εἰς τὸ ἱλάσκεσθαι ⸂τὰς ἁμαρτίας⸃ τοῦ λαοῦ` — objeto **são os pecados**, com variante marcada no aparato. O argumento propiciatório para Hb 2.17 se faz **por contexto** (2.17 + Hb 9–10 + a doutrina da ira em Hebreus), **nunca pela regência sintática sozinha** |
+| R10 | ✅ **MIGRADA para a tabela oficial (nº2), 28/09/2026** — ver acima | — | — |
 
 ## Sentinela adicional, herdada como bug de ferramenta — crítica para este projeto
 
-| # | Sentinela | O que NÃO fazer | Evidência |
-|---|---|---|---|
-| R11 | **Busca literal por grego acentuado pode dar falso negativo** | declarar ausência de ἱλαστήριον/ἱλασμός/ἱλάσκομαι num arquivo por `grep` simples não bater | **Medido no projeto-irmão em 01/09/2026 (S20):** o `.md` de uma conversão de NA28 não estava em NFC nem NFD — normalização mista. `grep "ἱλαστήριον"` devolvia **0**; `grep "λαστ"` (sem acento) devolvia **6**, com o termo inteiro visível no contexto. **Foi falso negativo do buscador, não do acervo.** A ferramenta corretiva (`_scripts/buscar_grego.py`, ver abaixo) já existe e tem teste de aceitação embutido. **Regra decorrente: busca literal em grego acentuado é proibida neste projeto — todo grep passa por `buscar_grego.py`.** |
+✅ **MIGRADA para a tabela oficial (nº4), 28/09/2026** — testada nesta
+sessão contra o arquivo real do projeto, não só contra o achado do
+projeto-irmão. Ver tabela oficial acima.
 
 ---
 

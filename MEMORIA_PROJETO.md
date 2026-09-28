@@ -25,10 +25,21 @@ que trata a mesma tríade como parte de um recorte maior.
 
 ## Biblioteca
 
-**Vazia.** Nenhum arquivo em `biblioteca/`. Prioridade de aquisição:
-Dodd (1931 artigo, 1935 livro), Nicole (1955), e — se houver acesso aos
-acervos irmãos — reaproveitar NA28, BDAG, Thayer, Moulton-Milligan e a
-nota de Dodd em *The Johannine Epistles* (todos pré-aprovados lá).
+**1 arquivo aprovado:** `NA28_Novum-Testamentum-Graece.md` (638.153
+palavras, Tier S) — enviado pelo usuário em 28/09/2026, extraído e
+conferido nesta sessão pelas seis portas. As seis ocorrências da tríade
+foram lidas e confirmadas ao vivo.
+
+**Em espera, aguardando upload do usuário** (confirmados em listagem real
+do `biblioteca/` do projeto-irmão `Tabernáculo`, 28/09/2026): Morris
+(*Apostolic Preaching of the Cross*), Nicole (*Our Sovereign Saviour*),
+Packer (*Knowing God*), Harrison (*Levítico*, TNTC), Milgrom (*Leviticus
+1-16*), Wenham (*Leviticus*, NICOT), BDB (léxico hebraico), UBS5 (só para
+reconfirmar o veto).
+
+**Ainda não localizados em nenhum acervo:** Dodd (*The Bible and the
+Greeks*), BDAG, Thayer, Moulton-Milligan — não apareceram na listagem do
+`Tabernáculo`; aguardando listagem da pasta `Justiça-de-Deus\biblioteca`.
 
 ## Próxima ação
 

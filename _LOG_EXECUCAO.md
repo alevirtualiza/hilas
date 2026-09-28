@@ -142,3 +142,51 @@ login` feito nem credenciais de longo prazo.
 `verificar_artefato.py` (download + assinatura binária + checagem de
 status `completed`) — ambos seguindo o mesmo padrão de `montar_caderno.py`:
 sintaxe conferida contra o código-fonte real, execução não testada.
+
+## 5. Primeira fonte real recebida e aprovada — NA28 (28/09/2026)
+
+Usuário anexou o `.epub` original do NA28 (Novum Testamentum Graece,
+Nestle-Aland). Como este ambiente não tinha ferramentas de extração de
+PDF/EPUB, instalados nesta sessão: `pymupdf`, `ebooklib`, `beautifulsoup4`,
+`lxml` (via `pip install`).
+
+**Processo, seguindo as seis portas de `CURADORIA_FONTES_HILAS.md` §1:**
+
+1. **Porta 1 (identidade):** metadado do epub confirma "Barbara und Kurt
+   Aland, Institut für Neutestamentliche Textforschung, Münster",
+   ISBN 978-3-438-07236-8, editora readbox/Deutsche Bibelgesellschaft —
+   bate exatamente com a identificação que os projetos-irmãos descreviam
+   ("Vorwort... Barbara Aland, Kurt Aland").
+2. **Porta 2 (alfabeto como imagem):** apenas 1 `<img>` em todo o epub (a
+   capa) — sem hebraico/grego preservado como imagem.
+3. **Porta 3 (teste lexical):** `buscar_grego.py --teste` — **APROVADO**,
+   as quatro raízes (ιλαστηριον, ιλασμ, ιλασθ, ιλασκ) todas encontradas
+   com a contagem mínima exigida.
+4. **Porta 4 (sanidade do corpo):** as seis ocorrências foram lidas
+   integralmente com contexto — grego limpo, aparato crítico consistente
+   (✝, ⸂⸃, ⸀). Confirmado ao vivo, nesta sessão:
+   - Rm 3.25: `ὃν προέθετο ὁ θεὸς ✝ ἱλαστήριον ⸂διὰ [τῆς] πίστεως⸃` — **anartro confirmado**
+   - Hb 9.5: `τὸ ✝ ἱλαστήριον` — com artigo, referência ao móvel
+   - 1Jo 2.2: `αὐτὸς ✝ ἱλασμός ἐστιν περὶ τῶν ἁμαρτιῶν ἡμῶν, οὐ περὶ τῶν ἡμετέρων δὲ μόνον ἀλλὰ καὶ περὶ ὅλου τοῦ κόσμου` — **extensão confirmada por completo**
+   - 1Jo 4.10: `ἀπέστειλεν τὸν υἱὸν αὐτοῦ ✝ ἱλασμὸν περὶ τῶν ἁμαρτιῶν ἡμῶν`
+   - Lc 18.13: `ὁ θεός, ✝ ἱλάσθητί μοι τῷ ἁμαρτωλῷ`
+   - Hb 2.17: `εἰς τὸ ✝ ἱλάσκεσθαι ⸂τὰς ἁμαρτίας⸃ τοῦ λαοῦ` — **objeto = pecados confirmado**
+5. **Porta 5:** não necessária — sem defeito a avisar.
+6. **Porta 6:** Tier S.
+
+**Arquivo gravado:** `biblioteca/NA28_Novum-Testamentum-Graece.md`
+(638.153 palavras, frontmatter com autor/ISBN/sha256 do epub de origem,
+portas conferidas documentadas no próprio cabeçalho).
+
+**Sentinelas migradas para a tabela oficial** (`_artifacts/sentinelas_HILAS.md`),
+pela primeira vez com verificação própria deste projeto, não mais só
+"achado do projeto-irmão": nº1 (anartro em Rm 3.25), nº2 (objeto de
+Hb 2.17), nº3 (extensão de 1Jo 2.2), nº4 (o buscador funciona). **Estado:
+4/6 — `verificar_sentinelas.py` retorna [INCOMPLETO], exit 1** (antes era
+[VAZIO], exit 2). Trava de escrita em `saidas/` menos severa agora, mas
+ainda não liberada.
+
+**Pendência declarada:** o arquivo está acima do teto usual de upload ao
+NotebookLM (450-525 mil palavras, conforme a conta) — dividir antes de
+subir a um caderno; `dividir_md.py` ainda não foi escrito neste projeto
+(existe nos projetos-irmãos, não portado ainda).
