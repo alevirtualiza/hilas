@@ -273,7 +273,7 @@ conferência em fonte primária (léxico + texto grego).**
 | 🔴 **ausente nas duas pastas irmãs verificadas** | Moulton-Milligan, *Vocabulary of the Greek Testament* | uso extrabíblico (papiros) | não localizado |
 | 🟡 5 | TDNT (Kittel), verbete ἵλεως κτλ. (vol. 3, Büchsel) | citado dentro de Morris (Büchsel é discutido diretamente) — texto completo do TDNT ainda não localizado | não localizado |
 | 🟡 6 | John Stott, *The Cross of Christ* (1986), cap. sobre "propitiation" | síntese pastoral-acadêmica contemporânea | não localizado |
-| 🟡 7 | D.A. Carson, tratamento de Rm 3.25 | conecta com o projeto-irmão "Justiça de Deus" | não localizado |
+| ✅ **no projeto** | D. A. Carson, "Atonement in Romans 3:21-26", em Hill & James (eds.), *The Glory of the Atonement* | trata Rm 3.21-26 diretamente; o livro é dedicado a Roger Nicole | `biblioteca/HillJames_The_Glory_of_the_Atonement.md` (⚠️ grego cifrado, só argumento) |
 | 🟡 8 | Stephen Travis, *Christ and the Judgment of God* (rev. 2008) | posição intermediária a mapear com cuidado | não localizado |
 | 🟢 9 | Louw-Nida, *Greek-English Lexicon of the NT Based on Semantic Domains* | classificação por domínio semântico | não localizado |
 | 🟢 10 | Albrecht Ritschl, sobre reconciliação (séc. XIX) | precursor a verificar (sentinela R6, ainda aberta) | não localizado |

@@ -9,7 +9,7 @@ núcleo bibliográfico do debate central está completo, incluindo Dodd na
 ## O que já está pronto
 
 - Estrutura completa de pastas, `CLAUDE.md`, `ESCOPO_HILAS.md`.
-- `_artifacts/sentinelas_HILAS.md` — **8/6 sentinelas na tabela oficial**,
+- `_artifacts/sentinelas_HILAS.md` — **9/6 sentinelas na tabela oficial**,
   todas verificadas contra fonte primária real deste projeto: dado
   gramatical do NA28 lido ao vivo; o método real de Dodd (agora lido
   diretamente do próprio livro, não mais via citação em Morris) e a
@@ -42,6 +42,8 @@ núcleo bibliográfico do debate central está completo, incluindo Dodd na
 | `Milgrom_Leviticus1-16_P1de2.md` / `P2de2.md` | S |
 | `Harrison_Levitico_Introducao_e_Comentario_PT.md` | A1 |
 | `Wenham_Leviticus_NICOT.md` | A1 (SEM FORMA ORIGINAL — hebraico/grego como imagem) |
+| `Stott_The_Cross_of_Christ.md` | S |
+| `HillJames_The_Glory_of_the_Atonement.md` | S (⚠️ grego cifrado -- só argumento) |
 
 **🎉 Núcleo bibliográfico do debate central COMPLETO.** Todos os itens do
 padrão de refutação (fonte primária do adversário, melhor formulação,
@@ -55,8 +57,6 @@ primário real, não mais mitigação.
 - Roger Nicole, "C. H. Dodd and the Doctrine of Propitiation", *WTJ* 17 (1955), pp. 117-157 — artigo (distinto do livro já no projeto)
 - Leon Morris, artigo em *Expository Times* 62 (1951), pp. 227-233 — **achado novo**, distinto do livro de 1955 já no projeto
 - TDNT (Kittel/Friedrich), verbete de Büchsel
-- John Stott, *The Cross of Christ* (1986)
-- D. A. Carson, ensaios sobre Rm 3.21-26
 - Stephen Travis, *Christ and the Judgment of God* (1986/2008)
 - Louw-Nida, *Greek-English Lexicon... Based on Semantic Domains*
 - Albrecht Ritschl, *Die christliche Lehre von der Rechtfertigung und Versöhnung*

@@ -349,3 +349,38 @@ tripla confirmação independente — Morris, o próprio Dodd, e o BDAG).
 Estado: 8/6 sentinelas verificadas.
 
 **Estado da biblioteca: 14 arquivos.**
+
+## 11. Stott e Hill/James — Carson localizado, quarta confirmação de Nicole (28/09/2026)
+
+Usuário anexou dois `.epub`: Stott, *The Cross of Christ*, e Hill & James
+(eds.), *The Glory of the Atonement*. Extraídos com o mesmo pipeline
+ebooklib+BeautifulSoup do NA28.
+
+**Stott:** identidade confirmada por metadado (ISBN, editora IVP).
+Seção "Propitiation" lida por completo — trata Dodd, Morris, Nicole e
+Büchsel (TDNT) com precisão, incluindo um dado novo (1 Clemente e o
+Pastor de Hermas usam ἱλάσκομαι claramente para propiciar Deus,
+argumento de Büchsel contra Dodd). **Confirma a citação de Nicole pela
+quarta vez, de forma totalmente independente**: "Nicole, Roger R., 'C. H.
+Dodd and the Doctrine of Propitiation', *Westminster Theological Journal*
+xvii.2 (1955), pp. 117-157" — idêntica a Morris e ao BDAG.
+
+**Hill & James:** metadado do epub estava corrompido (título "B004JLM6FI
+EBOK", artefato do Calibre) — identidade confirmada pelo **corpo**
+(sumário interno lista os editores e o título real). **Achado**: o livro
+é dedicado a Roger Nicole. O capítulo 6, de **D. A. Carson**, "Atonement
+in Romans 3:21-26", fecha um item pendente da pauta de aquisição.
+
+**Bug de conversão identificado (terceira classe, distinta de imagem e de
+variante de glifo):** o grego neste arquivo está **cifrado** — mapeamento
+de fonte-símbolo do PDF original herdado como Latin1 genuíno na
+conversão (`ἱλαστήριον` → `1XaoTrjplov`, `ἱλασμός` → `iAaoios`). Mesmo
+padrão documentado nos projetos-irmãos como "Regra 17 candidata"
+(Ellingworth, Cockerill). **Não é detectável por `buscar_grego.py`** (não
+há erro de acento/glifo — é substituição de caractere). Registrado como
+**sentinela nº9**, com a regra prática de inspecionar visualmente
+sequências como maiúscula-no-meio-de-palavra antes de aceitar "grego
+ausente" de um epub convertido. Arquivo entra como Tier S, mas com aviso
+explícito: nunca citar forma grega exata dele.
+
+**Estado: 16 arquivos na biblioteca, 9/6 sentinelas [PRONTO].**

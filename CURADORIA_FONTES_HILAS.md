@@ -128,6 +128,33 @@ direta e citação exata.
 
 ---
 
+## ✅ Sexto lote recebido e aprovado (28/09/2026) — Stott e Hill/James (Carson)
+
+| Arquivo | Tier | Papel |
+|---|---|---|
+| `biblioteca/Stott_The_Cross_of_Christ.md` | S | síntese pastoral-acadêmica clássica — confirma a citação de Nicole pela **quarta vez**, de forma independente |
+| `biblioteca/HillJames_The_Glory_of_the_Atonement.md` | S | contém o capítulo de **D. A. Carson**, "Atonement in Romans 3:21-26" — item da pauta de aquisição fechado |
+
+**Stott** trata Dodd, Morris, Nicole e Büchsel (TDNT) com precisão —
+inclusive um dado novo: Büchsel aponta que 1 Clemente e o Pastor de
+Hermas usam ἱλάσκομαι claramente para propiciar Deus, algo que Dodd não
+considerou. Bibliografia de Dodd também confirmada: *The Bible and the
+Greeks* (Hodder & Stoughton, 1935) e *The Epistle of Paul to the Romans*
+(Moffatt NTC, 1932).
+
+**Hill & James** — o livro é **dedicado a Roger Nicole** ("A Tribute to
+Roger Nicole" por Timothy George). O capítulo 6 de Carson discute
+diretamente Rm 3.21-26. ⚠️ **Achado técnico:** o grego neste arquivo está
+**cifrado**, não ausente — mapeamento de fonte-símbolo corrompido durante
+a conversão do epub (`1XaoTrjplov` no lugar de ἱλαστήριον, `iAaoios` no
+lugar de ἱλασμός) — o mesmo padrão já medido em Ellingworth/Cockerill nos
+projetos-irmãos ("Regra 17 candidata"). **Nunca citar forma grega exata
+deste arquivo** — só o argumento em inglês, que está intacto e é rico
+(discussão extensa de Dodd × Nicole sobre 1Jo 2.2, incluindo o comentário
+de I. Howard Marshall).
+
+---
+
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)
 
 Se este projeto reaproveitar um `.md` já convertido de outro projeto (em vez
