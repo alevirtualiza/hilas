@@ -580,3 +580,42 @@ arminiana/de expiação universal-efetiva para contrapor.
 não representada no acervo com a mesma profundidade que Nicole; Ritschl,
 texto primário, ainda não localizado; 2 Macabeus 3.33 (paralelo de
 ἱλασμός citado por BDAG), sem texto primário no acervo.
+
+## 18. Redação da Unidade 04 — síntese (28/09/2026)
+
+Redigido `fase2-unidades/U04_sintese/saidas/RELATORIO_U04.md`, fechando a
+Fase 2 (as quatro unidades — U01, U02, U03, U04 — estão completas).
+Seguida à risca a regra do `CLAUDE.md` §1: **este dossiê não recebeu
+consulta nova à `biblioteca/`** — toda citação remonta aos três
+relatórios de unidade já auditados (U01, U02, U03), nunca a um arquivo
+da biblioteca diretamente. O relatório abre com uma nota metodológica
+explícita registrando essa restrição, para que auditorias futuras
+possam verificar a disciplina.
+
+**Contribuição específica da síntese:** mostrar que os "ataques ao
+pressuposto" já feitos separadamente em cada unidade (U01 §4.1 —
+estatístico, via Nicole/Morris; U03 §4.1 — circularidade lexicográfica,
+achado próprio de Caragounis; U02 §4.1 — Dodd concede o dado do
+adversário antes de subordiná-lo) são, na verdade, **a mesma crítica
+metodológica única** aplicada em três pontos: Dodd decide o sentido
+lexical geral da LXX antes de examinar o peso do contexto imediato de
+cada texto do NT, e trata essa decisão prévia como mais forte que a
+evidência textual local que a contradiz. Nomeado como o pressuposto
+central atacado por todo o projeto, não apenas por uma unidade.
+
+**Lacuna declarada de escopo (nova, não presente nas unidades
+anteriores):** o `CLAUDE.md` pede que a síntese relacione a propiciação
+com καταλλαγή (reconciliação) e ἀπολύτρωσις (redenção), mas nenhuma das
+três unidades tratou desses termos como objeto de exegese lexical
+própria — apenas nota-se a adjacência textual de ἀπολύτρωσις em Rm 3.24,
+na mesma sentença de ἱλαστήριον (3.25). Como a síntese não pode consultar
+a biblioteca diretamente (regra do `CLAUDE.md` §1), essa exegese fica
+fora do escopo desta unidade — declarada como lacuna, não preenchida por
+inferência. Recomenda-se um dossiê dedicado (Círculo C3, Loci Teológicos)
+se o projeto quiser fechar essa lacuna com o mesmo rigor lexical das
+quatro unidades.
+
+**Sentinelas:** nenhuma sentinela nova foi aberta ou fechada nesta
+síntese — ela reúne e nomeia explicitamente a sentinela nº5 (método de
+Dodd em 3 passos) como o pressuposto unificado, e menciona R6/R9/a
+observação da U03 apenas para registro de estado, sem reabri-las.

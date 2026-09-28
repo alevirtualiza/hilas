@@ -4,7 +4,8 @@
 exegética (ver `ANATOMIA_DO_MOLDE.md`), adaptado ao recorte lexical dos
 três `hilas` (ἱλαστήριον / ἱλασμός / ἱλάσκομαι). **Fase 0 concluída. O
 núcleo bibliográfico do debate central está completo, incluindo Dodd na
-íntegra.**
+íntegra. Fase 2 concluída — as quatro unidades (U01-U04) estão
+redigidas e auditadas.**
 
 ## O que já está pronto
 
@@ -93,29 +94,37 @@ início da redação — são aprofundamento, não corpus mínimo.
   objetivo (como a tabela do `CLAUDE.md` §1 descreve), é περί+genitivo —
   não muda a pergunta teológica, mas deve ser corrigido no `CLAUDE.md`
   numa próxima revisão editorial.
-- ⬜ U04 (síntese) — não iniciada. **Todas as três unidades lexicais
-  (U01, U02, U03) estão concluídas.**
+- ✅ **U04 (síntese) redigida** — `fase2-unidades/U04_sintese/saidas/RELATORIO_U04.md`.
+  **A Fase 2 está completa (U01-U04).** Não consultou a biblioteca
+  diretamente (regra `CLAUDE.md` §1) — usou só os três relatórios de
+  unidade já auditados. Contribuição própria: mostrar que os três
+  "ataques ao pressuposto" das unidades (estatístico/U01, circular/U03,
+  seletivo-quanto-ao-contexto/U02) são a mesma crítica metodológica única
+  — Dodd decide o léxico geral antes do contexto local, depois subordina
+  o contexto à decisão prévia. Lacuna nova declarada: καταλλαγή e
+  ἀπολύτρωσις não foram objeto de exegese lexical própria em nenhuma
+  unidade (só adjacência textual notada em Rm 3.24-25) — fora do escopo
+  desta síntese, que não pode consultar a biblioteca diretamente.
 
 ## Próxima ação
 
-1. **Redigir U04 (síntese)** — Rm 1.18; 3.21-26 como painel completo,
-   relação com καταλλαγή e ἀπολύτρωσις. Único dossiê que usa os três
-   relatórios de unidade já auditados como fonte, nunca as fontes cruas
-   da biblioteca (ver `CLAUDE.md` §1). Todo o corpus necessário
-   (U01+U02+U03) já está pronto.
+1. **Fase 2 encerrada.** Considerar a Fase 3 (síntese doutrinal e
+   homilética, que reaproveita a U04) — ver `CLAUDE.md` §1.
 2. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`), se
-   ainda não feitos — podem rodar em paralelo à Fase 2.
+   ainda não feitos — podem rodar em paralelo.
 3. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
    nada executado contra conta real ainda.
-4. Mídia: agora que U01-U03 estão auditadas, o pré-requisito de
-   `ESTRATEGIA_MIDIA_HILAS.md` para o módulo `HILAS-M1` está satisfeito —
-   falta apenas execução real contra conta NotebookLM (não possível
-   nesta sessão sandboxed).
-5. Considerar promover a observação de Caragounis (circularidade
+4. Mídia: o pré-requisito de `ESTRATEGIA_MIDIA_HILAS.md` para o módulo
+   `HILAS-M1` está satisfeito (U01-U03 auditadas) — falta apenas execução
+   real contra conta NotebookLM (não possível nesta sessão sandboxed).
+5. Se o projeto quiser fechar a lacuna de καταλλαγή/ἀπολύτρωσις (U04
+   §2.3): abrir dossiê dedicado, possivelmente no Círculo C3 (Loci
+   Teológicos) de `ESTRATEGIA_CIRCULOS_HILAS.md`.
+6. Considerar promover a observação de Caragounis (circularidade
    lexicográfica de Hb 2.17 em LSJ/Demetrakos/Montanari, U03) a rascunho
    formal em `_artifacts/sentinelas_HILAS.md` na próxima manutenção de
    sentinelas.
-6. Corrigir a tabela do `CLAUDE.md` §1 (U02): "genitivo objetivo" →
+7. Corrigir a tabela do `CLAUDE.md` §1 (U02): "genitivo objetivo" →
    περί+genitivo (achado da U02, não muda a pergunta teológica).
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
