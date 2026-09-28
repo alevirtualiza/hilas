@@ -4,9 +4,11 @@
 exegética (ver `ANATOMIA_DO_MOLDE.md`), adaptado ao recorte lexical dos
 três `hilas` (ἱλαστήριον / ἱλασμός / ἱλάσκομαι). **Fase 0 concluída. O
 núcleo bibliográfico do debate central está completo, incluindo Dodd na
-íntegra. Fases 1 e 2 concluídas** — os 12 prompts introdutórios
-(`fase1-introducao/saidas/01-12.md` + `RELATORIO_FASE1.md`) e as quatro
-unidades (U01-U04) estão redigidos e auditados.
+íntegra. Fases 1, 2 e 3 concluídas** — os 12 prompts introdutórios
+(`fase1-introducao/saidas/01-12.md` + `RELATORIO_FASE1.md`), as quatro
+unidades (U01-U04) e a síntese doutrinal/homilética
+(`fase3-sintese-final/saidas/RELATORIO_FASE3.md`) estão redigidos e
+auditados.
 
 ## O que já está pronto
 
@@ -122,10 +124,25 @@ início da redação — são aprofundamento, não corpus mínimo.
   "nova perspectiva sobre Paulo", não a Dodd diretamente — achado novo
   para o Círculo C5.
 
+## Fase 3 — síntese doutrinal e homilética
+
+- ✅ **Concluída** — `fase3-sintese-final/saidas/RELATORIO_FASE3.md`.
+  Estrutura decidida nesta sessão (o `CLAUDE.md` só tinha uma linha de
+  tabela, sem template próprio como Fases 1/2): (1) síntese doutrinal em
+  cinco proposições ancoradas em U01-U04; (2) esboço homilético em
+  quatro pontos sobre Rm 3.21-26, usando só material pastoral já
+  auditado (Packer, Stott). Declara explicitamente os três pontos que a
+  doutrina confessional não decide (kapporet×4Mac, alcance de "todo o
+  mundo", categoria gramatical de Hb 2.17), e evita duas caricaturas já
+  identificadas nas unidades ("Deus zangado apaziguado por Cristo";
+  "propiciação = mecanismo frio").
+
+**Com isto, as três fases centrais do projeto (1, 2, 3) estão
+completas.**
+
 ## Próxima ação
 
-1. **Fases 1 e 2 encerradas.** Considerar a Fase 3 (síntese doutrinal e
-   homilética, que reaproveita a U04) — ver `CLAUDE.md` §1.
+1. **Fases 1, 2 e 3 encerradas.** O núcleo do projeto está pronto.
 2. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
    nada executado contra conta real ainda.
 3. Mídia: o pré-requisito de `ESTRATEGIA_MIDIA_HILAS.md` para o módulo

@@ -668,3 +668,29 @@ Recomendado para aprofundamento no Círculo C5 (História da
 Interpretação).
 
 **Com esta execução, tanto a Fase 1 quanto a Fase 2 estão completas.**
+
+## 20. Fase 3 — síntese doutrinal e homilética (28/09/2026)
+
+Redigido `fase3-sintese-final/saidas/RELATORIO_FASE3.md`. O `CLAUDE.md`
+não detalha uma estrutura fixa para a Fase 3 (diferente das Fases 1/2,
+que têm arquivo de prompts e template próprios) — apenas a linha "Fase 3
+| Síntese doutrinal e homilética | reaproveita a U04 | Relatório
+completo" na tabela de arquitetura (§1). Decisão de estrutura tomada
+nesta sessão: duas partes (1) síntese doutrinal consolidada, em cinco
+proposições, cada uma ancorada num achado específico de U01-U04; (2)
+esboço homilético em quatro pontos sobre Rm 3.21-26, usando apenas
+material pastoral já auditado (Packer, Stott) — nenhuma nova consulta de
+fundo à biblioteca.
+
+**Disciplina aplicada:** a síntese doutrinal declara explicitamente três
+pontos que **não** decide (kapporet×4 Macabeus em U01; alcance de "todo
+o mundo" em U02; categoria gramatical de Hb 2.17 em U03) — evitando
+apresentar a doutrina confessional como mais monolítica do que o próprio
+corpus permite. O esboço homilético evita deliberadamente duas
+caricaturas já identificadas nas unidades anteriores: "Deus zangado
+apaziguado por Cristo" (contra Stott) e "propiciação = mecanismo frio
+sem amor" (a caricatura de William Neil, já registrada como objeção a
+evitar).
+
+**Com esta execução, as Fases 1, 2 e 3 do projeto Hilas estão
+completas.**
