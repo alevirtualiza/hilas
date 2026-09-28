@@ -190,3 +190,49 @@ ainda não liberada.
 NotebookLM (450-525 mil palavras, conforme a conta) — dividir antes de
 subir a um caderno; `dividir_md.py` ainda não foi escrito neste projeto
 (existe nos projetos-irmãos, não portado ainda).
+
+## 6. Segundo lote de fontes reais — fecha a Fase 0 (28/09/2026)
+
+Usuário anexou quatro `.md` já convertidos (não PDFs — conversão feita
+pelo próprio pipeline local do usuário, com frontmatter e, em dois casos,
+aviso de OCR já embutido): Morris (*Apostolic Preaching of the Cross*),
+Nicole (*Our Sovereign Saviour*), Packer (*Knowing God*), Harrison
+(*Levítico — Introdução e Comentário*, **edição em português**, Série
+Cultura Bíblica — distinta da edição inglesa TNTC que os documentos dos
+projetos-irmãos mencionavam).
+
+**Portas rodadas nos quatro** (ver `CURADORIA_FONTES_HILAS.md`):
+- Porta 1 (identidade): Morris confirmado pelo sumário batendo com a
+  estrutura conhecida da obra (caps. V-VI "Propitiation"); Nicole/Packer
+  por frontmatter próprio; Harrison por menção ao autor no corpo (p. 40+)
+  e identificação da edição em português.
+- Porta 2 (imagem): 0 em todos os quatro.
+- Porta 3 (teste lexical): Morris tem grego real (97 ocorrências de
+  `ιλασ`, com ruído de OCR letra a letra — ex. `iAaopos` por ἱλασμός); os
+  outros três são classe "só argumento" (Nicole/Packer já vinham com
+  aviso do pipeline do usuário; Harrison em português, não se aplica).
+- Porta 4 (sanidade do corpo): lida em todos — Morris (cap. V completo,
+  discussão fiel de todos os 6 versículos da tríade + Mt 16.22 + Hb 8.12);
+  Nicole (trecho sobre extensão de 1Jo 2.2); Packer (cap. 18 completo,
+  "The Heart of the Gospel"); Harrison (miolo em pp. 40-45, e o trecho
+  específico sobre etimologia de kipper/ἱλαστήριον).
+
+**Achado que fechou duas sentinelas de uma vez:** o capítulo de Morris
+"The work of C. H. Dodd" (`biblioteca/Morris_Apostolic_Preaching_of_the_Cross.md`,
+linhas ~5966-6030) cita **o método real de Dodd em 3 passos**, com nota de
+rodapé numerada — não a versão achatada que a sentinela original
+alertava contra. E cita e resume, com precisão, o artigo de **Roger
+Nicole, "C. H. Dodd and the Doctrine of Propitiation"** ("Dodd leva em
+conta não mais que 36% da evidência"). Isso confirma o conteúdo real do
+artigo de Nicole mesmo sem o texto integral em mãos.
+
+**Sentinelas migradas:** nº5 (o método real de Dodd) e nº6 (propiciação ≠
+expiação, decorrente diretamente do nº5). **Estado final: 6/6 —
+`verificar_sentinelas.py` retorna exit 0 [PRONTO].** Testado também o
+hook `hook_sentinelas.py` contra um caminho simulado em
+`fase2-unidades/U01_hilasterion/saidas/teste.md` — passa livre agora
+(antes bloqueava com exit 2).
+
+**🎉 Fase 0 (etapa de sentinelas) concluída.** Critério de saída atingido
+com verificação própria deste projeto (não emprestada de projeto irmão)
+em 100% das sentinelas oficiais.

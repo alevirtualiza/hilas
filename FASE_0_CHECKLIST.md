@@ -16,11 +16,10 @@
 4. ⬜ **Validar `buscar_grego.py`** contra a edição grega adquirida —
    `python3 _scripts/buscar_grego.py --teste biblioteca/<arquivo>.md` deve
    aprovar antes de qualquer citação lexical.
-5. ⬜ **Etapa de sentinelas** — migrar ao menos 6 dos 11 rascunhos de
-   `_artifacts/sentinelas_HILAS.md` para a tabela oficial, cada uma só
-   depois de consulta de verificação contra fonte primária (léxico + texto
-   grego). Critério de saída: `python3 _scripts/verificar_sentinelas.py`
-   retorna exit 0.
+5. ✅ **Etapa de sentinelas concluída em 28/09/2026** — 6/6 migradas para a
+   tabela oficial, cada uma verificada contra fonte primária real (NA28 +
+   Morris, que cita Dodd e Nicole diretamente). `verificar_sentinelas.py`
+   retorna exit 0 [PRONTO]. A trava de escrita em `saidas/` está liberada.
 6. ⬜ **Fase 1** — rodar os 12 prompts de `fase1-introducao/prompts_HILAS.md`,
    com auditoria em pelo menos 8 deles (consulta de verificação depois de
    cada resposta).

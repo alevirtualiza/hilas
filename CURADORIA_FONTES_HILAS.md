@@ -24,6 +24,29 @@ As seis ocorrências da tríade foram lidas integralmente nesta sessão — ver
 
 ---
 
+## ✅ Segundo lote recebido e aprovado (28/09/2026) — o núcleo do debate central
+
+| Arquivo | Tier | Papel |
+|---|---|---|
+| `biblioteca/Morris_Apostolic_Preaching_of_the_Cross.md` | S | resposta clássica a Dodd — dois capítulos inteiros (V-VI) sobre propiciação, **cita Dodd e Nicole diretamente com trechos literais** |
+| `biblioteca/Nicole_Our_Sovereign_Saviour.md` | S | 1Jo 2.2, extensão da propiciação — classe "só argumento" (grego quase ausente, política/OCR) |
+| `biblioteca/Packer_KnowingGod.md` | S | Rm 3.24-25 e 1Jo 2.2, cap. 18 "The Heart of the Gospel" — classe "só argumento" |
+| `biblioteca/Harrison_Levitico_Introducao_e_Comentario_PT.md` | A1 | **edição em português** (Série Cultura Bíblica, distinta da TNTC inglesa) — discute diretamente a etimologia de *kipper* e a tradução da LXX por ἱλαστήριον |
+
+**Achado que fecha 2 sentinelas sozinho:** Morris, no capítulo "The work of
+C. H. Dodd", cita o **método real de Dodd em 3 passos** (não a versão
+achatada) com nota de rodapé, e **cita e resume o artigo de Roger Nicole,
+"C. H. Dodd and the Doctrine of Propitiation"**, com a estatística exata
+("Dodd leva em conta apenas 36% da evidência"). Isso confirma o conteúdo
+real do artigo de Nicole mesmo sem o texto integral em mãos — ver
+`_artifacts/sentinelas_HILAS.md`, sentinelas 5 e 6.
+
+**Estado das sentinelas: 6/6 — Fase 0 (etapa de sentinelas) CONCLUÍDA.**
+`verificar_sentinelas.py` retorna exit 0 [PRONTO]. A trava de escrita em
+`fase1-introducao/saidas/` e `fase2-unidades/*/saidas/` está liberada.
+
+---
+
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)
 
 Se este projeto reaproveitar um `.md` já convertido de outro projeto (em vez

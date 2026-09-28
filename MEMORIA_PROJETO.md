@@ -25,35 +25,42 @@ que trata a mesma tríade como parte de um recorte maior.
 
 ## Biblioteca
 
-**1 arquivo aprovado:** `NA28_Novum-Testamentum-Graece.md` (638.153
-palavras, Tier S) — enviado pelo usuário em 28/09/2026, extraído e
-conferido nesta sessão pelas seis portas. As seis ocorrências da tríade
-foram lidas e confirmadas ao vivo.
+**5 arquivos aprovados** (todos pelas seis portas, ver `CURADORIA_FONTES_HILAS.md`):
 
-**Em espera, aguardando upload do usuário** (confirmados em listagem real
-do `biblioteca/` do projeto-irmão `Tabernáculo`, 28/09/2026): Morris
-(*Apostolic Preaching of the Cross*), Nicole (*Our Sovereign Saviour*),
-Packer (*Knowing God*), Harrison (*Levítico*, TNTC), Milgrom (*Leviticus
-1-16*), Wenham (*Leviticus*, NICOT), BDB (léxico hebraico), UBS5 (só para
+| Arquivo | Tier | Palavras (aprox.) |
+|---|---|---|
+| `NA28_Novum-Testamentum-Graece.md` | S | 638.153 |
+| `Morris_Apostolic_Preaching_of_the_Cross.md` | S | 133.752 |
+| `Nicole_Our_Sovereign_Saviour.md` | S | 58.396 |
+| `Packer_KnowingGod.md` | S | 119.040 |
+| `Harrison_Levitico_Introducao_e_Comentario_PT.md` | A1 | 93.995 |
+
+**🎉 Fase 0 (etapa de sentinelas) CONCLUÍDA em 28/09/2026** — 6/6
+sentinelas migradas para a tabela oficial, todas verificadas contra fonte
+primária real (o texto grego do NA28 lido ao vivo; o método de Dodd e a
+crítica de Nicole citados literalmente por Morris). `verificar_sentinelas.py`
+retorna exit 0 [PRONTO] — **a trava de escrita em `saidas/` está liberada.**
+
+**Ainda em espera, aguardando upload do usuário** (confirmados em listagem
+real do `biblioteca/` do `Tabernáculo`): Milgrom (*Leviticus 1-16*),
+Wenham (*Leviticus*, NICOT), BDB (léxico hebraico), UBS5 (só para
 reconfirmar o veto).
 
 **Ainda não localizados em nenhum acervo:** Dodd (*The Bible and the
-Greeks*), BDAG, Thayer, Moulton-Milligan — não apareceram na listagem do
+Greeks* — mitigado: Morris cita seu método e argumento extensivamente),
+BDAG, Thayer, Moulton-Milligan — não apareceram na listagem do
 `Tabernáculo`; aguardando listagem da pasta `Justiça-de-Deus\biblioteca`.
 
 ## Próxima ação
 
-1. Decidir se este projeto terá acesso aos acervos dos projetos irmãos
-   para reaproveitamento (ver `FASE_0_CHECKLIST.md` etapa 3) — em
-   particular o caderno `TAB-95-TRIADE-HILASMOS` do `Tabernáculo`, que já
-   tem Dodd, Morris, Nicole e Packer convertidos e testados — ou se a
-   aquisição será feita do zero.
-2. Adquirir/localizar ao menos uma edição grega do NT e validá-la com
-   `buscar_grego.py --teste`.
-3. Começar a migrar sentinelas para a tabela oficial — R3 (anartro em
-   Rm 3.25) e R10 (objeto de Hb 2.17) já têm dado gramatical confirmado
-   e são as mais rápidas de fechar.
-4. Abrir a Fase 1 (12 prompts, `fase1-introducao/prompts_HILAS.md`).
+1. **Abrir a Fase 1** (12 prompts, `fase1-introducao/prompts_HILAS.md`) —
+   agora liberada, com material suficiente em `biblioteca/` para responder
+   ao menos aos blocos B e C (lexical grego, a disputa central).
+2. Continuar recebendo os arquivos ainda pendentes (Milgrom, Wenham, BDB,
+   e — se localizados na pasta Justiça-de-Deus — Dodd, BDAG, Thayer,
+   Moulton-Milligan).
+3. Considerar abrir a Unidade 01 (ἱλαστήριον) primeiro — já tem NA28,
+   Morris e Harrison como corpus mínimo.
 5. NotebookLM: usar o plugin real `notebooklm-py`
    (github.com/teng-lin/notebooklm-py, `pip install notebooklm-py`) — a
    sintaxe dos três scripts em `_scripts/` (`montar_caderno.py`,

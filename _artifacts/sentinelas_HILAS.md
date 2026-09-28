@@ -30,9 +30,12 @@ sessão — ver `_LOG_EXECUCAO.md`). Não é mais "achado do projeto-irmão" —
 | 3 | **1Jo 2.2 tem a extensão explícita** "não somente pelos nossos, mas também pelos de todo o mundo" (`οὐ περὶ τῶν ἡμετέρων δὲ μόνον ἀλλὰ καὶ περὶ ὅλου τοῦ κόσμου`), confirmada por completo no NA28 | usar essa extensão para decidir sozinha o debate lexical Dodd/Morris (propiciação × expiação), que é questão distinta da extensão do alcance | **[FATO TEXTUAL]** a oração completa, conferida no NA28. **[HIPÓTESE DEBATIDA]** entre tradições confessionais quanto ao alcance (particular × universal) — debate diferente do debate lexical central deste projeto |
 | 4 | **Busca literal por grego acentuado pode dar falso negativo** — ferramenta, não achado teológico | declarar ausência de ἱλαστήριον/ἱλασμός/ἱλάσκομαι num arquivo por `grep` simples que não bata | **[DADO HISTÓRICO/OPERACIONAL]** confirmado nesta sessão: `buscar_grego.py --teste` aprovou corretamente contra o arquivo real deste projeto (`biblioteca/NA28_Novum-Testamentum-Graece.md`), inclusive num teste sintético com NFC/NFD misto. Regra: busca literal em grego acentuado é proibida — todo grep passa pelo script |
 
-*(4 sentinelas verificadas — 2 abaixo do critério de saída de 6.
-`_scripts/verificar_sentinelas.py` deve retornar exit 1 [INCOMPLETO], não
-mais exit 2 [VAZIO].)*
+| 5 | **A tese de Dodd, no seu método real (3 passos), não é "a LXX nunca fala de aplacar"** — é uma classificação de traduções: (i) onde a LXX NÃO usa ἱλάσκομαι/cognatos para verter כפר, usa palavras de "santificar/purificar" ou "cancelar/perdoar"; (ii) onde ἱλάσκομαι/cognatos NÃO traduzem כפר, vertem palavras de "limpar do pecado" (sujeito humano) ou "ter misericórdia" (sujeito divino); (iii) onde ἱλάσκομαι/cognatos TRADUZEM כφר, a LXX não estaria pensando em "aplacar a Divindade", mas em "realizar um ato pelo qual culpa/impureza é removida" | espantalho: "Dodd nega que a Bíblia fale em ira/aplacar" sem citar o método real | **[FONTE PRIMÁRIA, via citação direta em Morris]** — Morris, *Apostolic Preaching of the Cross*, cap. IV.a "The work of C. H. Dodd" (`biblioteca/Morris_Apostolic_Preaching_of_the_Cross.md`, linhas ~5966-5990), cita Dodd literalmente nos três passos, com nota de rodapé numerada. **A crítica de Nicole também está lá, citada com precisão**: "Roger R. Nicole, num artigo importante sobre 'C. H. Dodd and the Doctrine of Propitiation', aponta que Dodd não levou em conta um grande grupo de palavras que traduzem כפר... Nicole sustenta que Dodd leva em conta não mais que 36% da evidência." Isso **confirma a existência e o conteúdo real do artigo de Nicole** (ver R7) mesmo sem o texto completo do artigo em mãos |
+
+| 6 | **"Propiciação" e "expiação" não são duas traduções neutras da mesma palavra** — são as duas conclusões *opostas* que o próprio método de Dodd (sentinela 5) tenta decidir. Escolher uma das duas em português, ao traduzir ἱλαστήριον/ἱλασμός, já é tomar partido no debate, não uma escolha de estilo | tratar a escolha de palavra em português como estilística ou neutra | **[INFERÊNCIA FORTE]**, decorrente diretamente da sentinela 5: o próprio Dodd organiza sua evidência para concluir que o grupo ἱλασκ- na LXX significa "remover/purgar" (expiação), não "aplacar" (propiciação) — as duas palavras portuguesas **traduzem as duas teses rivais**, não a mesma coisa. Confirmado por leitura direta do método de Dodd em `biblioteca/Morris_Apostolic_Preaching_of_the_Cross.md` |
+
+*(6 sentinelas verificadas — critério de saída atingido.
+`_scripts/verificar_sentinelas.py` deve retornar exit 0 [PRONTO].)*
 
 ---
 
@@ -40,8 +43,8 @@ mais exit 2 [VAZIO].)*
 
 | # | Sentinela | O que NÃO fazer | Evidência já levantada (a reconferir aqui) |
 |---|---|---|---|
-| R1 | **"Propiciação" e "expiação" não são sinônimos de tradução neutra** | tratá-las como estilo, não tese | — (analítico, não depende de conferência textual) |
-| R2 | **Dodd não nega a ira de Deus como conceito** | espantalho: "Dodd apaga a ira" | `LOG_QUERIES.md` DIKA-92 #4-5: a formulação correta de Dodd, extraída **da própria obra dele** (*The Johannine Epistles*, Moffatt NTC, já no acervo do projeto-irmão) é: ele distingue o **grego pagão extrabíblico** (onde aceita sentido propiciatório) do **uso bíblico** (onde nega que Deus seja objeto do verbo, preferindo expiar/purificar). Isto é o argumento real, não a versão achatada |
+| R1 | ✅ **MIGRADA para a tabela oficial (nº6), 28/09/2026** — ver acima | — | — |
+| R2 | ✅ **MIGRADA para a tabela oficial (nº5), 28/09/2026** — ver acima, agora com o método de Dodd em 3 passos, citado literalmente via Morris | — | — |
 | R3 | ✅ **MIGRADA para a tabela oficial (nº1), 28/09/2026** — ver acima | — | — |
 | R4 | **A etimologia de כפר não tem consenso fechado** | escolher uma hipótese sem rótulo | Mesmo o projeto-irmão trata como disputa aberta entre *purgar* (Milgrom) e *resgatar* (Sklar), marcado `[a conferir em primária]` — nenhuma das duas dada como resolvida |
 | R5 | ✅ **MIGRADA para a tabela oficial (nº3), 28/09/2026** — ver acima | — | — |
