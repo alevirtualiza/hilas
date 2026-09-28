@@ -69,19 +69,35 @@ início da redação — são aprofundamento, não corpus mínimo.
   *kapporet*) e Morris (alusão a 4 Macabeus 17.22) — ambos rejeitam Dodd,
   tratada como exceção da Regra Zero, não como concessão. Sentinela R9
   avançada (4 Macabeus citado por Morris, forma confirmada como cognata).
-- ⬜ U02 (ἱλασμός), U03 (ἱλάσκομαι), U04 (síntese) — não iniciadas.
+- ✅ **U03 (ἱλάσκομαι) redigida** — `fase2-unidades/U03_hilaskomai/saidas/RELATORIO_U03.md`.
+  Cobre Lc 18.13 (sem objeto de pecado, sujeito=Deus) e Hb 2.17 (objeto de
+  pecado explícito, sentinela nº2). Achado: a tensão gramatical entre os
+  dois textos é o próprio par que Dodd usa como prova dupla; resposta
+  não nega a transitividade de Hb 2.17 (Stott concede), argumenta que ela
+  não decide sozinha a questão. Achado novo (candidato a sentinela):
+  Caragounis mostra que os três léxicos gregos gerais (LSJ, Demetrakos,
+  Montanari) citam Hb 2.17 como único exemplo do sentido "expiação" em
+  toda a literatura helênica — circularidade lexicográfica no argumento
+  de Dodd.
+- ⬜ U02 (ἱλασμός), U04 (síntese) — não iniciadas.
 
 ## Próxima ação
 
-1. **Redigir U03 (ἱλάσκομαι)** — segunda unidade, corpus já suficiente
-   (NA28, UBS5, BDAG, Morris, Dodd cap. V já discute Lc 18.13/Hb 2.17).
-   Ordem recomendada no `FASE_0_CHECKLIST.md`: U01 → U03 → U02 → U04.
-2. Depois, U02 (ἱλασμός) — Nicole e Packer já cobrem 1Jo 2.2/4.10 diretamente.
+1. **Redigir U02 (ἱλασμός)** — 1Jo 2.2/4.10, corpus já suficiente (Nicole,
+   Packer, Dodd cap. V, BDAG já discutem diretamente). Ordem recomendada
+   no `FASE_0_CHECKLIST.md`: U01 → U03 → U02 → U04 — U03 concluída, U02 é
+   a próxima.
+2. Depois, U04 (síntese) — usa os três relatórios de unidade já auditados,
+   nunca as fontes cruas da biblioteca (ver `CLAUDE.md` §1).
 3. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`), se
    ainda não feitos — podem rodar em paralelo à Fase 2.
 4. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
    nada executado contra conta real ainda.
 5. Mídia: só depois de U01-U03 auditadas — ver `ESTRATEGIA_MIDIA_HILAS.md`.
+6. Considerar promover a observação de Caragounis (circularidade
+   lexicográfica de Hb 2.17 em LSJ/Demetrakos/Montanari) a rascunho formal
+   em `_artifacts/sentinelas_HILAS.md` na próxima manutenção de
+   sentinelas.
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
 

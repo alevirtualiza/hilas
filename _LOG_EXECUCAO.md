@@ -487,3 +487,42 @@ formatos, ou manter a disciplina manual documentada aqui.
 **Lacunas declaradas no relatório:** Cranfield (ICC) só via citação de
 segunda mão; 4 Macabeus sem texto primário; Manson/Breytenbach só via
 BDAG.
+
+## 16. Redação da Unidade 03 — ἱλάσκομαι (28/09/2026)
+
+Redigido `fase2-unidades/U03_hilaskomai/saidas/RELATORIO_U03.md`, cobrindo
+Lc 18.13 e Hb 2.17, seguindo a ordem recomendada no
+`FASE_0_CHECKLIST.md` (U01 → U03 → U02 → U04). Fontes conferidas
+diretamente no disco antes de cada citação: NA28 (Lc 18.13 e Hb 2.17,
+via `buscar_grego.py`, sem regressão), Dodd (cap. V, citação literal dos
+dois parágrafos que tratam os dois textos lado a lado), BDAG (verbete
+ἱλάσκομαι completo, os dois sentidos e a bibliografia do debate), Stott
+(pp. 3895-4024 região — a seção mais longa e detalhada do acervo sobre
+este par de textos), Caragounis (pp. 22-23, 27, 30).
+
+**Achado de redação — a tensão gramatical Lc 18.13 × Hb 2.17 é o próprio
+par de textos que Dodd usa como prova dupla:** Lc 18.13 (sem objeto de
+pecado, sujeito=Deus) e Hb 2.17 (com "as pecados" como objeto direto
+explícito) parecem, à primeira vista, empurrar em direções opostas —
+Dodd os une sob o mesmo "modelo" (a ideia de propiciar pessoa já teria
+"evaporado" em ambos). A resposta não nega a assimetria gramatical (Stott
+concede explicitamente que Hb 2.17 é transitivo com objeto de pecado);
+argumenta que a transitividade não decide sozinha entre "aplacar a ira
+relativa ao pecado" e "cancelar o pecado" — a decisão depende do contexto
+de Hebreus (sacerdócio, ira mencionada em 3.11/4.3).
+
+**Achado novo, candidato a sentinela:** Caragounis (pp. 22-23, notas
+69-70) observa que os três léxicos gregos gerais (LSJ, Demetrakos,
+Montanari) citam **Hb 2.17 como único exemplo**, em toda a literatura
+helênica catalogada, do sentido "expiação" para o grupo ἱλασκ- — o que
+torna circular usar Hb 2.17 para provar que a palavra "pode" significar
+expiar. Documentado em §2.3 e §4.1 do relatório; recomendado promover a
+rascunho formal de sentinela na próxima manutenção de
+`_artifacts/sentinelas_HILAS.md` — nenhum dos três léxicos gerais está no
+acervo, então a citação permanece `[CITADO POR TERCEIROS]`.
+
+**Lacunas declaradas no relatório:** LSJ/Demetrakos/Montanari (léxicos
+gregos gerais) não estão no acervo, só citados via Caragounis; 1 Clemente,
+Pastor de Hermas, Josefo e Filo (evidência pós-NT/intertestamentária de
+uso propiciatório, citados por Stott via Büchsel) sem texto primário no
+acervo — relevantes para o futuro Círculo C5 (História da Interpretação).
