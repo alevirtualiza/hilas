@@ -79,25 +79,44 @@ início da redação — são aprofundamento, não corpus mínimo.
   Montanari) citam Hb 2.17 como único exemplo do sentido "expiação" em
   toda a literatura helênica — circularidade lexicográfica no argumento
   de Dodd.
-- ⬜ U02 (ἱλασμός), U04 (síntese) — não iniciadas.
+- ✅ **U02 (ἱλασμός) redigida** — `fase2-unidades/U02_hilasmos/saidas/RELATORIO_U02.md`.
+  Cobre 1Jo 2.2/4.10. Achado: Dodd concede que o dado do adversário
+  (παράκλητος πρὸς τὸν Πατέρα em 2.1) "poderia apoiar" a leitura
+  propiciatória-pessoal antes de descartá-lo via a fórmula sacrificial
+  da LXX — resposta mostra que essa fórmula pressupõe destinatário
+  pessoal (Deus aceita a oferta). Sentinela R6 avançada (Packer confirma,
+  de forma independente, a filiação Sócino→Ritschl→Dodd). Debate sobre o
+  alcance ("todo o mundo") tratado como divergência legítima
+  calvinista×arminiana, distinta do eixo Dodd — Nicole (particularista)
+  bem representado, posição arminiana declarada como lacuna.
+  Correção registrada: a construção `περὶ τῶν ἁμαρτιῶν` não é genitivo
+  objetivo (como a tabela do `CLAUDE.md` §1 descreve), é περί+genitivo —
+  não muda a pergunta teológica, mas deve ser corrigido no `CLAUDE.md`
+  numa próxima revisão editorial.
+- ⬜ U04 (síntese) — não iniciada. **Todas as três unidades lexicais
+  (U01, U02, U03) estão concluídas.**
 
 ## Próxima ação
 
-1. **Redigir U02 (ἱλασμός)** — 1Jo 2.2/4.10, corpus já suficiente (Nicole,
-   Packer, Dodd cap. V, BDAG já discutem diretamente). Ordem recomendada
-   no `FASE_0_CHECKLIST.md`: U01 → U03 → U02 → U04 — U03 concluída, U02 é
-   a próxima.
-2. Depois, U04 (síntese) — usa os três relatórios de unidade já auditados,
-   nunca as fontes cruas da biblioteca (ver `CLAUDE.md` §1).
-3. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`), se
+1. **Redigir U04 (síntese)** — Rm 1.18; 3.21-26 como painel completo,
+   relação com καταλλαγή e ἀπολύτρωσις. Único dossiê que usa os três
+   relatórios de unidade já auditados como fonte, nunca as fontes cruas
+   da biblioteca (ver `CLAUDE.md` §1). Todo o corpus necessário
+   (U01+U02+U03) já está pronto.
+2. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`), se
    ainda não feitos — podem rodar em paralelo à Fase 2.
-4. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
+3. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
    nada executado contra conta real ainda.
-5. Mídia: só depois de U01-U03 auditadas — ver `ESTRATEGIA_MIDIA_HILAS.md`.
-6. Considerar promover a observação de Caragounis (circularidade
-   lexicográfica de Hb 2.17 em LSJ/Demetrakos/Montanari) a rascunho formal
-   em `_artifacts/sentinelas_HILAS.md` na próxima manutenção de
+4. Mídia: agora que U01-U03 estão auditadas, o pré-requisito de
+   `ESTRATEGIA_MIDIA_HILAS.md` para o módulo `HILAS-M1` está satisfeito —
+   falta apenas execução real contra conta NotebookLM (não possível
+   nesta sessão sandboxed).
+5. Considerar promover a observação de Caragounis (circularidade
+   lexicográfica de Hb 2.17 em LSJ/Demetrakos/Montanari, U03) a rascunho
+   formal em `_artifacts/sentinelas_HILAS.md` na próxima manutenção de
    sentinelas.
+6. Corrigir a tabela do `CLAUDE.md` §1 (U02): "genitivo objetivo" →
+   περί+genitivo (achado da U02, não muda a pergunta teológica).
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
 

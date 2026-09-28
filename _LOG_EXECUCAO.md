@@ -526,3 +526,57 @@ gregos gerais) não estão no acervo, só citados via Caragounis; 1 Clemente,
 Pastor de Hermas, Josefo e Filo (evidência pós-NT/intertestamentária de
 uso propiciatório, citados por Stott via Büchsel) sem texto primário no
 acervo — relevantes para o futuro Círculo C5 (História da Interpretação).
+
+## 17. Redação da Unidade 02 — ἱλασμός (28/09/2026)
+
+Redigido `fase2-unidades/U02_hilasmos/saidas/RELATORIO_U02.md`, cobrindo
+1Jo 2.2 e 4.10 — última unidade lexical antes da síntese (U04). Fontes
+conferidas diretamente no disco: NA28 (1Jo 2.2 e 4.10 via
+`buscar_grego.py`), Dodd (cap. V, citação literal do parágrafo sobre os
+dois textos joaninos, incluindo a concessão que ele mesmo faz ao dado do
+παράκλητος antes de descartá-lo), BDAG (verbete ἱλασμός completo, os dois
+sentidos e os paralelos Ez 44.27/Nm 5.8), Stott (pp. 3994-3996), Packer
+(pp. 3390-3392 "PROPITIATION DESCRIBED" e 3404-3408 "NOT MERELY
+EXPIATION"), Nicole (pp. 2345-2404, tratamento extenso do alcance de
+"todo o mundo").
+
+**Correção de nomenclatura gramatical:** a construção `περὶ τῶν
+ἁμαρτιῶν ἡμῶν` não é um "genitivo objetivo" (como a tabela do
+`CLAUDE.md` §1 descreve), é **περί + genitivo** — mesmo padrão
+preposicional da fórmula sacrificial da LXX para "oferta pelo pecado".
+A pergunta teológica de fundo (remoção vs. aplacamento) não muda, mas a
+categoria gramatical estava imprecisa. Registrado como observação em
+§1 e §5 do relatório; recomenda-se ajustar a tabela do `CLAUDE.md` numa
+próxima revisão editorial (não fiz a edição agora para não misturar
+correção estrutural do `CLAUDE.md` com a redação de uma unidade).
+
+**Achado de redação — Dodd concede o dado do adversário antes de
+descartá-lo:** diferente das outras unidades, aqui Dodd reconhece
+explicitamente que o contexto de ἱλασμός junto a παράκλητος πρὸς τὸν
+Πατέρα (1Jo 2.1) "poderia apoiar" a leitura propiciatória-pessoal — e
+mesmo assim conclui pela leitura de "oferta pelo pecado"/purificação,
+apoiado na fórmula `ἱλασμὸς περὶ ἁμαρτιῶν` da LXX. A resposta (§4.1)
+argumenta que a própria fórmula sacrificial da LXX pressupõe um
+destinatário pessoal (Deus, que aceita a oferta), não apenas remoção.
+
+**Sentinela R6 avançada:** Packer (`Knowing God`, seção "NOT MERELY
+EXPIATION") confirma, de forma independente de outras menções já
+registradas no projeto, a filiação histórica Sócino (séc. XVI) →
+Albrecht Ritschl → C. H. Dodd. R6 permanece formalmente aberta (nenhuma
+obra de Ritschl no acervo, nenhuma das fontes secundárias cita
+Ritschl com paginação direta), mas agora tem duas fontes independentes
+convergentes.
+
+**Achado sobre o alcance de "todo o mundo" (1Jo 2.2):** tratado como
+debate legítimo e distinto do eixo Dodd×conservadores (`CLAUDE.md` §2-B,
+exceções 1 e 3) — Nicole defende a leitura particularista/reformada com
+três sub-opções não conflitantes, todas afirmando propiciação pessoal e
+efetiva (é precisamente *por* levar o termo a sério como efeito real que
+Nicole não pode aceitar "todo o mundo" = universalismo da salvação).
+Lacuna real declarada: o acervo não tem uma defesa formal da posição
+arminiana/de expiação universal-efetiva para contrapor.
+
+**Lacunas declaradas no relatório:** posição arminiana sobre o alcance,
+não representada no acervo com a mesma profundidade que Nicole; Ritschl,
+texto primário, ainda não localizado; 2 Macabeus 3.33 (paralelo de
+ἱλασμός citado por BDAG), sem texto primário no acervo.
