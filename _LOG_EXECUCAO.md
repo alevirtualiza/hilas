@@ -236,3 +236,26 @@ hook `hook_sentinelas.py` contra um caminho simulado em
 **🎉 Fase 0 (etapa de sentinelas) concluída.** Critério de saída atingido
 com verificação própria deste projeto (não emprestada de projeto irmão)
 em 100% das sentinelas oficiais.
+
+## 7. BDB (léxico hebraico) — terceiro lote (28/09/2026)
+
+Usuário anexou os 3 volumes do BDB (Brown-Driver-Briggs, *Hebrew and
+English Lexicon*, 1906), já convertidos com aviso de OCR do próprio
+pipeline do usuário marcando classe "CONFIÁVEL" (361 palavras hebraicas
+por 10 mil).
+
+**Portas:** identidade confirmada pelo frontmatter (autores corretos);
+0 imagens de alfabeto; hebraico real presente (não testável por
+`buscar_grego.py`, que é específico para grego — conferido por leitura
+direta); sanidade confirmada em dois pontos (o verbete de כַּפֹּרֶת e um
+spot-check aleatório distante, verbete גֵּב/גבב, ambos legíveis apesar de
+ruído de OCR típico de 1906).
+
+**Achado central:** verbete nº4616 (כַּפֹּרֶת, "propiciatório") cita
+**explicitamente a tradução da LXX por ἱλαστήριον** e rejeita a etimologia
+"cobrir/tampa" para כפר — dado lexical primário direto para a Unidade 01,
+e evidência nova para a sentinela R4 (etimologia disputada em 3 polos,
+não 2). Não migrada para tabela oficial (a disputa etimológica continua
+aberta, isso apenas a documenta melhor).
+
+**Estado da biblioteca: 8 arquivos.** Sentinelas seguem 6/6 [PRONTO].

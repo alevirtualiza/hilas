@@ -47,6 +47,26 @@ real do artigo de Nicole mesmo sem o texto integral em mãos — ver
 
 ---
 
+## ✅ Terceiro lote recebido e aprovado (28/09/2026) — léxico hebraico
+
+| Arquivo | Tier | Papel |
+|---|---|---|
+| `biblioteca/BDB_Hebrew_Lexicon_1906_P1de3.md` | S | léxico hebraico-inglês (Brown-Driver-Briggs, 1906) |
+| `biblioteca/BDB_Hebrew_Lexicon_1906_P2de3.md` | S | idem — contém o verbete de כַּפֹּרֶת |
+| `biblioteca/BDB_Hebrew_Lexicon_1906_P3de3.md` | S | idem |
+
+**Achado central:** o verbete nº4616, כַּפֹּרֶת (kapporet, Strong 3727), diz
+literalmente: *"propitiatory, late techn. word from כפר cover over sin:
+the older explan. 'cover, lid' has no justification in usage; LXX
+ἱλαστήριον"* — com a lista exaustiva de ocorrências (Êx 25, 26, 30, 31, 35,
+37, 39, 40; Lv 16; Nm 7.89; 1Cr 28.11) e a descrição física do objeto
+(placa de ouro com querubins, sobre a arca). **Confirma diretamente, em
+léxico primário, que a LXX traduz כַּפֹּרֶת por ἱλαστήριον** — dado central
+para a Unidade 01. Também rejeita a etimologia "cobrir/tampa" — um
+terceiro polo na disputa da sentinela 4 (rascunho, ver `sentinelas_HILAS.md`).
+
+---
+
 ## 1. O protocolo de seis portas (herdado de `PROTOCOLO_REAPROVEITAMENTO_MD.md`)
 
 Se este projeto reaproveitar um `.md` já convertido de outro projeto (em vez
