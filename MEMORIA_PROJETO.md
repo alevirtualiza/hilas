@@ -62,14 +62,26 @@ Moulton-Milligan, o artigo de Nicole 1955, TDNT/Büchsel na íntegra,
 Travis, Louw-Nida, Ritschl, o artigo de Morris 1951. Nenhum bloqueia o
 início da redação — são aprofundamento, não corpus mínimo.
 
+## Unidades
+
+- ✅ **U01 (ἱλαστήριον) redigida** — `fase2-unidades/U01_hilasterion/saidas/RELATORIO_U01.md`.
+  Achado: divergência legítima entre Cranfield/Caragounis (alusão ao
+  *kapporet*) e Morris (alusão a 4 Macabeus 17.22) — ambos rejeitam Dodd,
+  tratada como exceção da Regra Zero, não como concessão. Sentinela R9
+  avançada (4 Macabeus citado por Morris, forma confirmada como cognata).
+- ⬜ U02 (ἱλασμός), U03 (ἱλάσκομαι), U04 (síntese) — não iniciadas.
+
 ## Próxima ação
 
-1. **Abrir a Unidade 01 (ἱλαστήριον)** — corpus mais que suficiente: NA28,
-   UBS5, BDAG, BDB, Dodd, Morris, Milgrom, Harrison, Wenham.
-2. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`).
-3. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
+1. **Redigir U03 (ἱλάσκομαι)** — segunda unidade, corpus já suficiente
+   (NA28, UBS5, BDAG, Morris, Dodd cap. V já discute Lc 18.13/Hb 2.17).
+   Ordem recomendada no `FASE_0_CHECKLIST.md`: U01 → U03 → U02 → U04.
+2. Depois, U02 (ἱλασμός) — Nicole e Packer já cobrem 1Jo 2.2/4.10 diretamente.
+3. Rodar os 12 prompts da Fase 1 (`fase1-introducao/prompts_HILAS.md`), se
+   ainda não feitos — podem rodar em paralelo à Fase 2.
+4. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
    nada executado contra conta real ainda.
-4. Mídia: só depois de U01-U03 auditadas — ver `ESTRATEGIA_MIDIA_HILAS.md`.
+5. Mídia: só depois de U01-U03 auditadas — ver `ESTRATEGIA_MIDIA_HILAS.md`.
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
 

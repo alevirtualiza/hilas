@@ -452,3 +452,38 @@ dia, ordem sugerida priorizando fechar sentinelas (C0→C1→C4→C5→C2→C3).
 
 **Nada executado** — mesma ressalva de sempre, este ambiente não tem CLI
 autenticada.
+
+## 14. Unidade 01 (ἱλαστήριον) redigida (28/09/2026)
+
+Primeira unidade exegética do projeto, `fase2-unidades/U01_hilasterion/saidas/RELATORIO_U01.md`.
+Fontes usadas: NA28 (texto grego, conferido com `buscar_grego.py`), BDB
+(verbete de כַּפֹּרֶת), Dodd (cap. V, citação literal do argumento sobre
+Rm 3.25), Morris (pp. 197f, 208-209 — argumento sobre 4 Macabeus 17.22 e
+o contexto de Rm 1-3), Caragounis (citação de Cranfield, *Romans I*,
+pp. 216-217), BDAG (bibliografia Manson/Breytenbach/Fitzer).
+
+**Achado de redação:** revelou-se uma divergência real entre dois
+defensores da mesma linha editorial — Cranfield/Caragounis (ἱλαστήριον
+alude ao *kapporet*/Dia da Expiação) × Morris (alude antes a 4 Macabeus
+17.22, rejeitando a conexão com o *kapporet* porque este era oculto e
+Cristo foi exposto publicamente). Tratada como exceção legítima da Regra
+Zero (`CLAUDE.md` §2-B, exceção 2) — divergência entre aliados, não
+concessão a Dodd, já que ambos rejeitam a leitura de expiação impessoal.
+
+**Sentinela R9 avançada substancialmente:** Morris cita 4 Macabeus 17.22
+diretamente (`τὸν ἱλαστήριον θανάτου αὐτῶν`) — confirma que é o adjetivo
+ἱλαστήριος concordando com θάνατος, cognato mas não idêntico ao
+substantivo de Rm 3.25/Hb 9.5. R9 permanece formalmente aberta (falta o
+texto primário de 4 Macabeus no acervo), mas a pergunta "é a mesma raiz?"
+está respondida.
+
+**`conferir_citacoes.py` não encontrou citações** porque o relatório usa
+citação em prosa (autor + página + obra) em vez do padrão exato `(Autor,
+p. N)` que o regex do script busca — as citações foram conferidas
+manualmente contra o disco durante a redação (grep direto nos arquivos
+antes de cada citação). Considerar ajustar o script para aceitar mais
+formatos, ou manter a disciplina manual documentada aqui.
+
+**Lacunas declaradas no relatório:** Cranfield (ICC) só via citação de
+segunda mão; 4 Macabeus sem texto primário; Manson/Breytenbach só via
+BDAG.
