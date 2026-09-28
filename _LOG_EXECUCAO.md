@@ -694,3 +694,40 @@ evitar).
 
 **Com esta execução, as Fases 1, 2 e 3 do projeto Hilas estão
 completas.**
+
+## 21. Tentativa de aquisição — artigo de Nicole (1955) e Travis (28/09/2026)
+
+A pedido do usuário, buscada a localização de duas fontes já registradas
+como pendentes em `ESCOPO_HILAS.md` §8: o artigo de Roger Nicole,
+"C. H. Dodd and the Doctrine of Propitiation" (*WTJ* 17, 1955, pp.
+117-157), e o livro de Stephen Travis, *Christ and the Judgment of God*
+(Paternoster, 1986/2008).
+
+**Confirmado via `WebSearch` (referência bibliográfica, não o texto):**
+
+- O artigo de Nicole está catalogado na Galaxie Software
+  (`galaxie.com/article/wtj17-2-01`, acesso pago) e **`biblicalstudies.org.uk`
+  hospeda digitalizações gratuitas de todo o *Westminster Theological
+  Journal*, volumes 1-20 (1939-1958)** — o que cobriria o volume 17
+  (1955) de forma legítima e gratuita.
+- Travis, *Christ and the Judgment of God*, confirmado como obra
+  comercial (Paternoster/Eerdmans), disponível para compra (Amazon,
+  eBay) — nenhuma versão de acesso aberto localizada nesta busca.
+
+**Bloqueio técnico:** `WebFetch` para `biblicalstudies.org.uk` e para
+`galaxie.com` retornou `EGRESS_BLOCKED` — a política de rede deste
+ambiente/sessão não permite acesso a esses domínios. **Não foi possível
+baixar nenhum dos dois textos nesta sessão.**
+
+**Nenhuma tentativa de localizar cópia não autorizada foi feita** —
+Travis é obra comercial em copyright; mesmo o artigo de Nicole, apesar
+de haver uma via de acesso aberto legítima conhecida (biblicalstudies.org.uk),
+não pôde ser buscada por causa do bloqueio de rede, não por escolha.
+
+**Próxima ação recomendada, registrada para o usuário:** (a) liberar o
+domínio `biblicalstudies.org.uk` na política de rede do ambiente e
+tentar novamente nesta ou numa próxima sessão; ou (b) o usuário baixar o
+artigo diretamente (gratuito, uma vez identificado o link exato na
+página de índice de WTJ 1-20) e anexar no chat, como já fez com as
+demais fontes do projeto; ou (c) para Travis, adquirir e anexar, dado
+não haver via gratuita conhecida.
