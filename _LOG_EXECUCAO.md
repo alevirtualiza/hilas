@@ -812,3 +812,20 @@ citação confirma a filiação histórica geral, mas não a equivalência
 metodológica específica entre Ritschl e Dodd (Ritschl fala de teologia
 da Reforma; Dodd argumenta lexicalmente a partir da LXX) — os dois
 argumentos não foram ainda comparados ponto a ponto.
+
+**Achado adicional — `_scripts/verificar_fronteira.py` estava
+documentado no `CLAUDE.md` §5 ("confirma que toda fonte citada está
+dentro de `biblioteca/`") mas nunca havia sido implementado** — `ls
+_scripts/` confirma sua ausência real, apesar da tabela de scripts do
+`CLAUDE.md` listá-lo desde a geração do projeto. Implementado nesta
+sessão: varre `fase1-introducao/saidas`, `fase2-unidades/*/saidas` e
+`fase3-sintese-final/saidas` por referências no padrão
+`` `biblioteca/<arquivo>` `` e reporta (1) referências a arquivos que
+não existem de fato em `biblioteca/` e (2) referências a caminhos fora
+da fronteira do projeto (outro projeto-irmão, pasta absoluta do usuário)
+— a violação que o `CLAUDE.md` §0 (FRONTEIRA) proíbe. Testado com dois
+casos sintéticos (arquivo ausente; caminho `C:\Users\...\TABERNACULO\
+biblioteca\...`) — ambos detectados corretamente, exit code 1. Rodado
+contra o projeto real: **42 referências a `biblioteca/...` nas saídas,
+zero arquivos ausentes, zero violações de fronteira** — auditoria limpa
+de toda a Fase 1, Fase 2 e Fase 3 já redigidas.
