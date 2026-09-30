@@ -741,3 +741,55 @@ de novo; ou (b) o usuário baixar diretamente (o Nicole é gratuito uma
 vez localizado o link exato na página de índice de WTJ 1-20; o Travis
 precisa ser comprado) e anexar no chat, como já fez com as demais fontes
 do projeto.
+
+**Terceiro momento (30/09/2026):** usuário enviou screenshot confirmando
+a localização exata da entrada de Nicole na página de índice
+(`biblicalstudies.org.uk`, Volume 17.2). Como não é possível extrair a
+URL exata de uma imagem renderizada, e o acesso ao domínio segue
+bloqueado nesta sessão, orientei o usuário a clicar no ícone de download
+ao lado da entrada e anexar o PDF resultante aqui no chat. Aquisição
+segue pendente do lado do usuário.
+
+## 22. Trabalho autônomo enquanto aguarda anexos (30/09/2026)
+
+A pedido do usuário ("continue sem parar, paralelizar"), avancei nos
+itens acionáveis da lista de "Próxima ação" que não dependem da
+aquisição de Nicole/Travis:
+
+1. **Correção no `CLAUDE.md` §1** (tabela de U02): "genitivo objetivo"
+   substituído por "περί + genitivo", registrando a correção já feita na
+   U02 §1, sem alterar a pergunta teológica de fundo.
+2. **Duas novas sentinelas-rascunho** em `_artifacts/sentinelas_HILAS.md`:
+   R11 (circularidade lexicográfica de Hb 2.17 nos léxicos gregos gerais
+   — achado da U03 §2.3, agora formalizado como rascunho) e R12
+   (`dossie.py --listar` não normaliza Unicode e pode subcontar grego —
+   achado da Fase 1, Prompt 6, agora formalizado).
+3. **Novo anexo à U04**:
+   `fase2-unidades/U04_sintese/saidas/ANEXO_KATALLAGE_APOLYTROSIS.md` —
+   fecha parcialmente a lacuna 1 da U04 (καταλλαγή/ἀπολύτρωσις não
+   tratados com rigor lexical). Diferente da U04 original, este anexo
+   **consultou a biblioteca diretamente** (BDAG, NA28) — declarado
+   explicitamente no próprio arquivo como exceção à regra "U04 só recebe
+   relatórios já auditados", já que é um dossiê novo, não uma revisão da
+   síntese em si.
+
+**Achado principal do anexo:** BDAG confirma que καταλλάσσω tem
+exatamente o mesmo padrão gramatical já documentado para o grupo ἱλασκ-
+nas Unidades 01-04 — Deus como sujeito ativo na voz ativa ("Deus nos
+reconciliou consigo mesmo", 2Cor 5.18) e como alvo pessoal na passiva
+com dativo ("ser reconciliado **com Deus**", Rm 5.10a). Isto **amplia**
+o argumento de "convergência independente" da U04 (§4.3): agora não são
+só três análises gramaticais de ἱλασκ- convergindo, é ἱλασκ- **e**
+καταλλαγή — dois grupos lexicais totalmente distintos — chegando à
+mesma estrutura pessoa-ofendida/pessoa-que-provê-o-meio. ἀπολύτρωσις foi
+tratado com mais cautela: seu domínio de origem (mercado de escravos) não
+compartilha essa estrutura pessoa-a-pessoa da mesma forma direta — as
+três metáforas (sacrificial, comercial, relacional) foram descritas como
+complementares, não concorrentes, unidas na mesma sentença em Rm 3.24-25.
+
+**Lacunas que permanecem, mesmo após o anexo:** uma exegese completa de
+καταλλαγή/ἀπολύτρωσις (texto por texto, no padrão das Unidades 01-03)
+não foi feita — o anexo é um primeiro levantamento lexicográfico, não
+uma unidade completa. Recomendado como candidato ao Círculo C3 (Loci
+Teológicos) se o projeto quiser aprofundar. Breytenbach, *Versöhnung*
+(1989), citado por BDAG nos dois verbetes, não está no acervo.

@@ -140,29 +140,40 @@ início da redação — são aprofundamento, não corpus mínimo.
 **Com isto, as três fases centrais do projeto (1, 2, 3) estão
 completas.**
 
+## Trabalho autônomo de 30/09/2026 (aguardando anexos de Nicole/Travis)
+
+- ✅ `CLAUDE.md` §1 corrigido: "genitivo objetivo" → περί+genitivo (U02).
+- ✅ R11 (circularidade lexicográfica de Hb 2.17) e R12 (`dossie.py`
+  não normaliza Unicode) formalizadas como rascunhos em
+  `_artifacts/sentinelas_HILAS.md`.
+- ✅ **Novo anexo à U04** —
+  `fase2-unidades/U04_sintese/saidas/ANEXO_KATALLAGE_APOLYTROSIS.md`.
+  Fecha parcialmente a lacuna de καταλλαγή/ἀπολύτρωσις: BDAG confirma que
+  καταλλάσσω tem o mesmo padrão gramatical já documentado para ἱλασκ-
+  (Deus sujeito ativo / alvo pessoal na passiva) — um **quarto grupo
+  lexical independente** confirmando a mesma estrutura teológica.
+  ἀπολύτρωσις (domínio do resgate/mercado de escravos) tratado como
+  metáfora complementar, não concorrente. Exegese completa de
+  καταλλαγή/ἀπολύτρωσις (texto por texto) ainda não feita — candidata ao
+  Círculo C3.
+
 ## Próxima ação
 
-1. **Fases 1, 2 e 3 encerradas.** O núcleo do projeto está pronto.
-2. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
-   nada executado contra conta real ainda.
-3. Mídia: o pré-requisito de `ESTRATEGIA_MIDIA_HILAS.md` para o módulo
-   `HILAS-M1` está satisfeito (U01-U03 auditadas) — falta apenas execução
-   real contra conta NotebookLM (não possível nesta sessão sandboxed).
-4. Se o projeto quiser fechar a lacuna de καταλλαγή/ἀπολύτρωσις (U04
-   §2.3): abrir dossiê dedicado, possivelmente no Círculo C3 (Loci
-   Teológicos) de `ESTRATEGIA_CIRCULOS_HILAS.md`.
-5. Considerar promover a observação de Caragounis (circularidade
-   lexicográfica de Hb 2.17 em LSJ/Demetrakos/Montanari, U03) a rascunho
-   formal em `_artifacts/sentinelas_HILAS.md` na próxima manutenção de
-   sentinelas.
-6. Corrigir a tabela do `CLAUDE.md` §1 (U02): "genitivo objetivo" →
-   περί+genitivo (achado da U02, não muda a pergunta teológica).
-7. Registrar em `_artifacts/sentinelas_HILAS.md` a observação sobre
-   `dossie.py --listar` não normalizar grego (Fase 1, Prompt 6) — como
-   nota de uso do ferramental, não necessariamente sentinela numerada.
-8. Priorizar aquisição de Travis e do artigo de Nicole (1955) — os itens
-   de maior recorrência nas lacunas declaradas entre Fase 1 e as
-   quatro unidades.
+1. **Fases 1, 2 e 3 encerradas.** O núcleo do projeto está pronto; os
+   itens acionáveis sem dependência externa já foram resolvidos nesta
+   sessão (ver acima).
+2. **Aguardando o usuário:** anexar o PDF de Nicole (1955, gratuito via
+   `biblicalstudies.org.uk`, entrada já localizada pelo usuário) e de
+   Travis (compra necessária) — únicos itens que dependem de ação fora
+   desta sessão.
+3. NotebookLM: usar o plugin real `notebooklm-py` — sintaxe conferida,
+   nada executado contra conta real ainda (depende de conta real, fora
+   do alcance desta sessão sandboxed).
+4. Mídia: pré-requisito satisfeito (U01-U03 auditadas) — falta apenas
+   execução real contra conta NotebookLM.
+5. Se o projeto quiser uma exegese completa de καταλλαγή/ἀπολύτρωσις
+   (não apenas o levantamento lexicográfico do anexo): abrir unidade
+   dedicada, candidata ao Círculo C3 (Loci Teológicos).
 
 ## Decisões pendentes (ver `ESCOPO_HILAS.md` §9)
 
