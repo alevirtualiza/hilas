@@ -133,7 +133,7 @@ direta e citação exata.
 | Arquivo | Tier | Papel |
 |---|---|---|
 | `biblioteca/Stott_The_Cross_of_Christ.md` | S | síntese pastoral-acadêmica clássica — confirma a citação de Nicole pela **quarta vez**, de forma independente |
-| `biblioteca/HillJames_The_Glory_of_the_Atonement.md` | S | contém o capítulo de **D. A. Carson**, "Atonement in Romans 3:21-26" — item da pauta de aquisição fechado |
+| `biblioteca/HillJames_The_Glory_of_the_Atonement.md` | S | contém o capítulo de **D. A. Carson**, "Atonement in Romans 3:21-26" — item da pauta de aquisição fechado; **também contém citação direta em alemão de Ritschl** (*Die christliche Lehre von der Rechtfertigung und Versöhnung*, 1889, 1.217 e outras) e sua classificação explícita como teórico da influência moral/subjetiva — avança a sentinela R6 (30/09/2026), ver `_artifacts/sentinelas_HILAS.md` |
 
 **Stott** trata Dodd, Morris, Nicole e Büchsel (TDNT) com precisão —
 inclusive um dado novo: Büchsel aponta que 1 Clemente e o Pastor de

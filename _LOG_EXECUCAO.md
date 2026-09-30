@@ -793,3 +793,22 @@ não foi feita — o anexo é um primeiro levantamento lexicográfico, não
 uma unidade completa. Recomendado como candidato ao Círculo C3 (Loci
 Teológicos) se o projeto quiser aprofundar. Breytenbach, *Versöhnung*
 (1989), citado por BDAG nos dois verbetes, não está no acervo.
+
+**Achado adicional — sentinela R6 (Ritschl) avançada substancialmente:**
+ao mapear mais a fundo `biblioteca/HillJames_The_Glory_of_the_Atonement.md`
+para o anexo acima, localizei uma **citação direta em alemão, com
+referência bibliográfica completa**, de Ritschl, *Die christliche Lehre
+von der Rechtfertigung und Versöhnung* (3ª ed., 1889), 1.217 — Ritschl
+argumentando que os Reformadores (incluindo Calvino) trataram a
+reconciliação objetiva apenas como pressuposto, não como a concepção
+"imediatamente religiosa". O mesmo arquivo classifica Ritschl
+explicitamente como um dos teóricos da "influência moral"/visão
+subjetiva da expiação (junto a Abelardo, Bushnell, Rashdall) — a mesma
+família de leituras que nega o elemento objetivo que a Regra Zero
+defende, estruturalmente (não lexicalmente) análoga à tese de Dodd.
+**Registrado em `_artifacts/sentinelas_HILAS.md` (R6 atualizada) e em
+`CURADORIA_FONTES_HILAS.md`.** R6 permanece formalmente aberta — a
+citação confirma a filiação histórica geral, mas não a equivalência
+metodológica específica entre Ritschl e Dodd (Ritschl fala de teologia
+da Reforma; Dodd argumenta lexicalmente a partir da LXX) — os dois
+argumentos não foram ainda comparados ponto a ponto.
