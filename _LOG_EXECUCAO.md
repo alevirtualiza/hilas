@@ -829,3 +829,9 @@ biblioteca\...`) — ambos detectados corretamente, exit code 1. Rodado
 contra o projeto real: **42 referências a `biblioteca/...` nas saídas,
 zero arquivos ausentes, zero violações de fronteira** — auditoria limpa
 de toda a Fase 1, Fase 2 e Fase 3 já redigidas.
+
+**Fechamento da última lacuna pendente da Fase 1:** Rm 1.28
+("παρέδωκεν αὐτοὺς ὁ θεὸς εἰς ἀδόκιμον νοῦν") conferido diretamente
+contra o NA28 via `buscar_grego.py` — as três ocorrências de "Deus os
+entregou" em Rm 1.24, 1.26 e 1.28 estão agora integralmente confirmadas
+(`fase1-introducao/saidas/10.md` atualizado).
